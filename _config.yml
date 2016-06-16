@@ -5,7 +5,7 @@ description: >
   Website containing course material such as lectures and homework for STAT 385 @ UIUC
   during Summer 2016 Session 2
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://stat385.thecoatlessprofessor.com/" # the base hostname & protocol for your site
+url: "http://stat385.thecoatlessprofessor.com" # the base hostname & protocol for your site
 twitter_username: axiomsofxyz
 github_username:  coatless
 
@@ -13,3 +13,7 @@ permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
+timezone: America/Chicago
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge 
