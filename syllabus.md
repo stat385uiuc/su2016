@@ -15,6 +15,12 @@ permalink: /syllabus/
 - **Location:** Siebel 1105
 - **Time:** Monday, Tuesday, and Thursday, 3:00 PM - 4:50 PM
 
+# Course Websites
+
+* **Materials:** <http://stat385.thecoatlessprofessor.com> (Source: <http://github.com/coatless/stat385>)
+* **Discussion Forum:** <https://piazza.com/illinois/summer2016/stat385/home>
+* **Analytical Environment:** <https://rstudio.stat.illinois.edu/>
+
 # Course Staff
 
 ### Instructor
@@ -22,7 +28,7 @@ permalink: /syllabus/
 - **Name:** James Balamuta
 - **Email:** balamut2@illinois.edu
 - **Office:** 117 Illini Hall
-- **Office Hours:** TBA.
+- **Office Hours:** Wednesday and Friday 11:00 AM - 12:30 PM CDT
 
 ### Grader
 
@@ -69,7 +75,7 @@ I will heavily reference the following texts:
 The following textbooks are *helpful*, but not necessary to succeed in the course:
 
 - **Supplemental:** [Introduction to Scientific Programming and Simulation Using R](http://www.ms.unimelb.edu.au/~odj/Teaching/MAST30025/spuRs_reformatted_part1.pdf) Owen Jones, Robert Maillardet, and Andrew Robinson
-- **Supplemental:** [An introduction to R](http://www.ms.unimelb.edu.au/~odj/Teaching/MAST30025/spuRs_reformatted_part1.pdf) Jeffrey Dean and Sanjay Ghemawat
+- **Supplemental:** [An introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf) Jeffrey Dean and Sanjay Ghemawat
 - **Supplemental:** [The Art of R Programming](http://vufind.carli.illinois.edu/vf-uiu/Record/uiu_6955421) Norman Matloff
 - **Supplemental:** [R Packages](http://r-pkgs.had.co.nz/) Hadley Wickham
 - **Supplemental:** [ggplot2: Elegant Graphics for Data Analysis [2nd Edition - GitHub Only]](https://github.com/hadley/ggplot2-book) Hadley Wickham
