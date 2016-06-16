@@ -1,0 +1,2149 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUN 2016 20:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**lec2_reproducible_research.tex
+(./lec2_reproducible_research.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
+)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen158
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen162
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `implicit' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count121
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count122
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+(/usr/local/texlive/2015/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen168
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen169
+\c@framenumber=\count136
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
+\beamer@footins=\box44
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks30
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
+)
+\beamer@blockheadheight=\dimen175
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks32
+\ex@=\dimen177
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen178
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks33
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count152
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip57
+\fb@frw=\dimen188
+\fb@frh=\dimen189
+\FrameRule=\dimen190
+\FrameSep=\dimen191
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/compatibility
+/beamerthemebars.sty
+Package: beamerthemebars 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+estructurebold.sty
+Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+ememiniframes.sty
+Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count153
+\mult@box=\box53
+\multicol@leftmargin=\dimen192
+\c@unbalance=\count154
+\c@collectmore=\count155
+\doublecol@number=\count156
+\multicoltolerance=\count157
+\multicolpretolerance=\count158
+\full@width=\dimen193
+\page@free=\dimen194
+\premulticols=\dimen195
+\postmulticols=\dimen196
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box54
+\last@line=\box55
+\maxbalancingoverflow=\dimen197
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@gfirstbox=\box58
+\mult@firstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\c@columnbadness=\count159
+\c@finalcolumnbadness=\count160
+\last@try=\dimen198
+\multicolovershoot=\dimen199
+\multicolundershoot=\dimen200
+\mult@nat@firstbox=\box77
+\colbreak@box=\box78
+\mc@col@check@num=\count161
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAn
+nArbor.sty
+Package: beamerthemeAnnArbor 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emeinfolines.sty
+Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewolverine.sty
+Package: beamercolorthemewolverine 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count162
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
+Package hyperref Info: Option `colorlinks' set `true' on input line 133.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen201
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box79
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen202
+\pgf@nodesepend=\dimen203
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen204
+\pgffor@skip=\dimen205
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count163
+\pgfplotmarksize=\dimen206
+)
+\tikz@lastx=\dimen207
+\tikz@lasty=\dimen208
+\tikz@lastxsaved=\dimen209
+\tikz@lastysaved=\dimen210
+\tikzleveldistance=\dimen211
+\tikzsiblingdistance=\dimen212
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count164
+\tikznumberofchildren=\count165
+\tikznumberofcurrentchild=\count166
+\tikz@fig@count=\count167
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count168
+\pgfmatrixcurrentcolumn=\count169
+\pgf@matrix@numberofcolumns=\count170
+)
+\tikz@expandcount=\count171
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box84
+\pgfnodeparttwobox=\box85
+\pgfnodepartthreebox=\box86
+\pgfnodepartfourbox=\box87
+\pgfnodeparttwentybox=\box88
+\pgfnodepartnineteenbox=\box89
+\pgfnodeparteighteenbox=\box90
+\pgfnodepartseventeenbox=\box91
+\pgfnodepartsixteenbox=\box92
+\pgfnodepartfifteenbox=\box93
+\pgfnodepartfourteenbox=\box94
+\pgfnodepartthirteenbox=\box95
+\pgfnodeparttwelvebox=\box96
+\pgfnodepartelevenbox=\box97
+\pgfnodeparttenbox=\box98
+\pgfnodepartninebox=\box99
+\pgfnodeparteightbox=\box100
+\pgfnodepartsevenbox=\box101
+\pgfnodepartsixbox=\box102
+\pgfnodepartfivebox=\box103
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen213
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(./lec2_reproducible_research.aux)
+\openout1 = `lec2_reproducible_research.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 152.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 152
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count172
+\scratchdimen=\dimen214
+\scratchbox=\box104
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen215
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks46
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box105
+Package hyperref Info: Link coloring ON on input line 152.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count178
+)
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
+
+(./lec2_reproducible_research.out) (./lec2_reproducible_research.out)
+\@outlinefile=\write6
+\openout6 = `lec2_reproducible_research.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 152.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 152.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 152.
+\symnumbers=\mathgroup7
+\sympureletters=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 152.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 152.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 152.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 152.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 152.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 152.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 152.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 152.
+
+(./lec2_reproducible_research.nav)
+<imark_bold-eps-converted-to.pdf, id=66, 27.10126pt x 35.13126pt>
+File: imark_bold-eps-converted-to.pdf Graphic file (type pdf)
+
+<use imark_bold-eps-converted-to.pdf>
+Package pdftex.def Info: imark_bold-eps-converted-to.pdf used on input line 167
+.
+(pdftex.def)             Requested size: 27.10118pt x 35.13115pt.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 167.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 167
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 167
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 167.
+LaTeX Font Info:    Try loading font information for U+msa on input line 167.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 167.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 167
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 167.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 167.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 167.
+
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./imark
+_bold-eps-converted-to.pdf>] (./lec2_reproducible_research.toc) [2
+
+] [3
+
+]
+(./lec2_reproducible_research.toc) [4
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 189.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 189.
+
+ [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
+] [10
+
+]
+(./lec2_reproducible_research.toc) [11
+
+] [12
+
+] [13
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb
+<img/configrstudio_opt.png, id=262, 195.73125pt x 170.88844pt>
+File: img/configrstudio_opt.png Graphic file (type png)
+
+<use img/configrstudio_opt.png>
+Package pdftex.def Info: img/configrstudio_opt.png used on input line 8.
+(pdftex.def)             Requested size: 97.86537pt x 85.444pt.
+
+<img/set_to_knitr.png, id=264, 433.62pt x 411.03563pt>
+File: img/set_to_knitr.png Graphic file (type png)
+
+<use img/set_to_knitr.png>
+Package pdftex.def Info: img/set_to_knitr.png used on input line 14.
+(pdftex.def)             Requested size: 147.42885pt x 139.75026pt.
+)
+Overfull \vbox (7.52625pt too high) detected at line 355
+ []
+
+[14
+
+ <./img/configrstudio_opt.png> <./img/set_to_knitr.png>] [15
+
+] [16
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [17
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+<img/git/select_git_bash.png, id=309, 308.65312pt x 391.4625pt>
+File: img/git/select_git_bash.png Graphic file (type png)
+
+<use img/git/select_git_bash.png>
+Package pdftex.def Info: img/git/select_git_bash.png used on input line 10.
+(pdftex.def)             Requested size: 98.77101pt x 125.27055pt.
+
+<img/git/git_global_config.png, id=310, 503.63156pt x 289.83281pt>
+File: img/git/git_global_config.png Graphic file (type png)
+
+<use img/git/git_global_config.png>
+Package pdftex.def Info: img/git/git_global_config.png used on input line 16.
+(pdftex.def)             Requested size: 181.30722pt x 104.33972pt.
+) [18
+
+ <./img/git/select_git_bash.png> <./img/git/git_global_config.png>]
+<img/git/github_reg.png, id=321, 921.4425pt x 615.80063pt>
+File: img/git/github_reg.png Graphic file (type png)
+
+<use img/git/github_reg.png>
+Package pdftex.def Info: img/git/github_reg.png used on input line 434.
+(pdftex.def)             Requested size: 294.86763pt x 197.06023pt.
+
+Overfull \vbox (3.40198pt too high) detected at line 434
+ []
+
+[19
+
+ <./img/git/github_reg.png>]
+<img/git/ed_discount.png, id=333, 837.88031pt x 744.53156pt>
+File: img/git/ed_discount.png Graphic file (type png)
+
+<use img/git/ed_discount.png>
+Package pdftex.def Info: img/git/ed_discount.png used on input line 444.
+(pdftex.def)             Requested size: 192.70842pt x 171.23865pt.
+
+Overfull \vbox (4.78041pt too high) detected at line 444
+ []
+
+[20
+
+ <./img/git/ed_discount.png>]
+<img/git/bitbucket_reg.png, id=345, 837.88031pt x 615.80063pt>
+File: img/git/bitbucket_reg.png Graphic file (type png)
+
+<use img/git/bitbucket_reg.png>
+Package pdftex.def Info: img/git/bitbucket_reg.png used on input line 454.
+(pdftex.def)             Requested size: 209.46956pt x 153.94977pt.
+ [21
+
+ <./img/git/bitbucket_reg.png>]
+<img/git/create_repo.png, id=356, 838.63312pt x 399.74344pt>
+File: img/git/create_repo.png Graphic file (type png)
+
+<use img/git/create_repo.png>
+Package pdftex.def Info: img/git/create_repo.png used on input line 464.
+(pdftex.def)             Requested size: 343.8418pt x 163.89586pt.
+
+Overfull \hbox (1.5465pt too wide) in paragraph at lines 464--464
+ [] 
+ []
+
+[22
+
+ <./img/git/create_repo.png>]
+<img/git/repo_details.png, id=365, 828.09375pt x 580.41844pt>
+File: img/git/repo_details.png Graphic file (type png)
+
+<use img/git/repo_details.png>
+Package pdftex.def Info: img/git/repo_details.png used on input line 473.
+(pdftex.def)             Requested size: 264.9954pt x 185.73769pt.
+ [23
+
+ <./img/git/repo_details.png>]
+<img/git/copy_repository.png, id=374, 829.59938pt x 581.92406pt>
+File: img/git/copy_repository.png Graphic file (type png)
+
+<use img/git/copy_repository.png>
+Package pdftex.def Info: img/git/copy_repository.png used on input line 482.
+(pdftex.def)             Requested size: 265.47722pt x 186.2195pt.
+ [24
+
+ <./img/git/copy_repository.png>]
+<img/project/open_menu.png, id=383, 173.14688pt x 344.03531pt>
+File: img/project/open_menu.png Graphic file (type png)
+
+<use img/project/open_menu.png>
+Package pdftex.def Info: img/project/open_menu.png used on input line 501.
+(pdftex.def)             Requested size: 55.40813pt x 110.09354pt.
+
+<img/project/select_vc_project.png, id=384, 405.01312pt x 292.09125pt>
+File: img/project/select_vc_project.png Graphic file (type png)
+
+<use img/project/select_vc_project.png>
+Package pdftex.def Info: img/project/select_vc_project.png used on input line 5
+01.
+(pdftex.def)             Requested size: 145.8046pt x 105.15276pt.
+ [25
+
+ <./img/project/open_menu.png> <./img/project/select_vc_project.png>]
+<img/project/git_project_details.png, id=394, 405.01312pt x 289.83281pt>
+File: img/project/git_project_details.png Graphic file (type png)
+
+<use img/project/git_project_details.png>
+Package pdftex.def Info: img/project/git_project_details.png used on input line
+ 511.
+(pdftex.def)             Requested size: 182.25421pt x 130.42355pt.
+ [26
+
+ <./img/project/git_project_details.png>] <img/project/project_view_git.png, id
+=403, 1085.55562pt x 636.87938pt>
+File: img/project/project_view_git.png Graphic file (type png)
+
+<use img/project/project_view_git.png>
+Package pdftex.def Info: img/project/project_view_git.png used on input line 52
+4.
+(pdftex.def)             Requested size: 336.51877pt x 197.43056pt.
+ [27
+
+ <./img/project/project_view_git.png>] <img/project/staging_git.png, id=412, 47
+9.54156pt x 213.04594pt>
+File: img/project/staging_git.png Graphic file (type png)
+
+<use img/project/staging_git.png>
+Package pdftex.def Info: img/project/staging_git.png used on input line 543.
+(pdftex.def)             Requested size: 153.45644pt x 68.17609pt.
+
+<img/project/commit_step_git.png, id=413, 471.26062pt x 340.27126pt>
+File: img/project/commit_step_git.png Graphic file (type png)
+
+<use img/project/commit_step_git.png>
+Package pdftex.def Info: img/project/commit_step_git.png used on input line 543
+.
+(pdftex.def)             Requested size: 169.65369pt x 122.49754pt.
+ [28
+
+ <./img/project/staging_git.png> <./img/project/commit_step_git.png>]
+<img/project/review_changes.png, id=424, 524.71031pt x 256.70906pt>
+File: img/project/review_changes.png Graphic file (type png)
+
+<use img/project/review_changes.png>
+Package pdftex.def Info: img/project/review_changes.png used on input line 552.
+
+(pdftex.def)             Requested size: 188.89555pt x 92.41518pt.
+ [29
+
+ <./img/project/review_changes.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [30
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[31
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+File: img/configrstudio_opt.png Graphic file (type png)
+ <use img/configrstudio_opt.png>
+Package pdftex.def Info: img/configrstudio_opt.png used on input line 8.
+(pdftex.def)             Requested size: 97.86537pt x 85.444pt.
+
+<img/ssh/rstudio_blank_ssh.png, id=450, 584.1825pt x 592.2125pt>
+File: img/ssh/rstudio_blank_ssh.png Graphic file (type png)
+
+<use img/ssh/rstudio_blank_ssh.png>
+Package pdftex.def Info: img/ssh/rstudio_blank_ssh.png used on input line 14.
+(pdftex.def)             Requested size: 157.73137pt x 159.8995pt.
+)
+Overfull \vbox (0.7797pt too high) detected at line 601
+ []
+
+[32
+
+ <./img/ssh/rstudio_blank_ssh.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+<img/ssh/rstudio_succesful_generation.png, id=460, 584.1825pt x 454.69875pt>
+File: img/ssh/rstudio_succesful_generation.png Graphic file (type png)
+
+<use img/ssh/rstudio_succesful_generation.png>
+Package pdftex.def Info: img/ssh/rstudio_succesful_generation.png used on input
+ line 8.
+(pdftex.def)             Requested size: 122.68193pt x 95.48955pt.
+
+<img/ssh/rstudio_ssh_key.png, id=461, 588.1975pt x 596.2275pt>
+File: img/ssh/rstudio_ssh_key.png Graphic file (type png)
+
+<use img/ssh/rstudio_ssh_key.png>
+Package pdftex.def Info: img/ssh/rstudio_ssh_key.png used on input line 14.
+(pdftex.def)             Requested size: 158.81544pt x 160.98357pt.
+) [33
+
+ <./img/ssh/rstudio_succesful_generation.png> <./img/ssh/rstudio_ssh_key.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+<img/ssh/rstudio_public_key.png, id=472, 441.65pt x 370.38374pt>
+File: img/ssh/rstudio_public_key.png Graphic file (type png)
+
+<use img/ssh/rstudio_public_key.png>
+Package pdftex.def Info: img/ssh/rstudio_public_key.png used on input line 6.
+(pdftex.def)             Requested size: 154.5798pt x 129.63625pt.
+) [34
+
+ <./img/ssh/rstudio_public_key.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb
+<img/ssh/github_settings_menu.png, id=482, 184.69pt x 295.1025pt>
+File: img/ssh/github_settings_menu.png Graphic file (type png)
+
+<use img/ssh/github_settings_menu.png>
+Package pdftex.def Info: img/ssh/github_settings_menu.png used on input line 8.
+
+(pdftex.def)             Requested size: 92.34476pt x 147.55087pt.
+
+<img/ssh/github_profile_menu.png, id=483, 242.9075pt x 297.11pt>
+File: img/ssh/github_profile_menu.png Graphic file (type png)
+
+<use img/ssh/github_profile_menu.png>
+Package pdftex.def Info: img/ssh/github_profile_menu.png used on input line 14.
+
+(pdftex.def)             Requested size: 97.16127pt x 118.84189pt.
+)
+Overfull \vbox (2.03107pt too high) detected at line 655
+ []
+
+[35
+
+ <./img/ssh/github_settings_menu.png> <./img/ssh/github_profile_menu.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb
+<img/ssh/github_new_ssh_key.png, id=494, 741.77126pt x 91.34125pt>
+File: img/ssh/github_new_ssh_key.png Graphic file (type png)
+
+<use img/ssh/github_new_ssh_key.png>
+Package pdftex.def Info: img/ssh/github_new_ssh_key.png used on input line 5.
+(pdftex.def)             Requested size: 259.62383pt x 31.96991pt.
+
+<img/ssh/github_ssh_key_add_example.png, id=495, 725.71124pt x 359.3425pt>
+File: img/ssh/github_ssh_key_add_example.png Graphic file (type png)
+
+<use img/ssh/github_ssh_key_add_example.png>
+Package pdftex.def Info: img/ssh/github_ssh_key_add_example.png used on input l
+ine 10.
+(pdftex.def)             Requested size: 232.23235pt x 114.99194pt.
+)
+Overfull \vbox (5.37625pt too high) detected at line 671
+ []
+
+[36
+
+ <./img/ssh/github_new_ssh_key.png> <./img/ssh/github_ssh_key_add_example.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+<img/ssh/github_added_success.png, id=506, 726.715pt x 82.3075pt>
+File: img/ssh/github_added_success.png Graphic file (type png)
+
+<use img/ssh/github_added_success.png>
+Package pdftex.def Info: img/ssh/github_added_success.png used on input line 5.
+
+(pdftex.def)             Requested size: 327.01872pt x 37.03802pt.
+) [37
+
+ <./img/ssh/github_added_success.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [38
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 19.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmtt.fd
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 22.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 22.
+) [39
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [40
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (8.37744pt too wide) in paragraph at lines 10--15
+[]\OT1/lmtt/m/n/10.95 https[][]://[][]username[][]:[][]password@github.com[][]/
+[][]username[][]/[][]helloworld.git[]|  []  
+ []
+
+) [41
+
+] <img/project/access_shell_git.png, id=557, 479.54156pt x 216.05719pt>
+File: img/project/access_shell_git.png Graphic file (type png)
+
+<use img/project/access_shell_git.png>
+Package pdftex.def Info: img/project/access_shell_git.png used on input line 80
+0.
+(pdftex.def)             Requested size: 153.45644pt x 69.1397pt.
+
+<img/git/git_terminal.png, id=558, 503.63156pt x 252.19218pt>
+File: img/git/git_terminal.png Graphic file (type png)
+
+<use img/git/git_terminal.png>
+Package pdftex.def Info: img/git/git_terminal.png used on input line 800.
+(pdftex.def)             Requested size: 171.23245pt x 85.7442pt.
+ [42
+
+ <./img/project/access_shell_git.png> <./img/git/git_terminal.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [43
+
+]
+(./lec2_reproducible_research.toc) [44
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[45
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [46
+
+]
+<img/rmd/file_new_rmd.png, id=616, 121.95563pt x 194.22563pt>
+File: img/rmd/file_new_rmd.png Graphic file (type png)
+
+<use img/rmd/file_new_rmd.png>
+Package pdftex.def Info: img/rmd/file_new_rmd.png used on input line 881.
+(pdftex.def)             Requested size: 60.97765pt x 97.11256pt.
+
+<img/rmd/select_new_rmd.png, id=617, 405.76593pt x 325.215pt>
+File: img/rmd/select_new_rmd.png Graphic file (type png)
+
+<use img/rmd/select_new_rmd.png>
+Package pdftex.def Info: img/rmd/select_new_rmd.png used on input line 881.
+(pdftex.def)             Requested size: 142.0202pt x 113.82695pt.
+ [47
+
+ <./img/rmd/file_new_rmd.png> <./img/rmd/select_new_rmd.png>]
+<img/rmd/default_rmd.png, id=626, 739.26187pt x 406.51875pt>
+File: img/rmd/default_rmd.png Graphic file (type png)
+
+<use img/rmd/default_rmd.png>
+Package pdftex.def Info: img/rmd/default_rmd.png used on input line 888.
+(pdftex.def)             Requested size: 295.69951pt x 162.60461pt.
+ [48
+
+ <./img/rmd/default_rmd.png>]
+<img/rmd/rmarkdown_overview.png, id=635, 1055.945pt x 559.08875pt>
+File: img/rmd/rmarkdown_overview.png Graphic file (type png)
+
+<use img/rmd/rmarkdown_overview.png>
+Package pdftex.def Info: img/rmd/rmarkdown_overview.png used on input line 895.
+
+(pdftex.def)             Requested size: 316.78595pt x 167.7279pt.
+ [49
+
+ <./img/rmd/rmarkdown_overview.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb
+LaTeX Font Info:    Try loading font information for OMS+lmtt on input line 6.
+LaTeX Font Info:    No file OMSlmtt.fd. on input line 6.
+
+
+LaTeX Font Warning: Font shape `OMS/lmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 6.
+
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 18.
+) [50
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (2.62871pt too wide) in paragraph at lines 10--10
+[]\OT1/lmtt/m/n/10.95 and \TS1/lmtt/m/n/10.95 `\OT1/lmtt/m/n/10.95 r []\OT1/lmt
+t/b/n/10.95 dim[]\OT1/lmtt/m/n/10.95 (apples)[2]\TS1/lmtt/m/n/10.95 ` \OT1/lmtt
+/m/n/10.95 variables contained within the apples[] 
+ []
+
+) [51
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [52
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [53
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+<img/rmd/compile_rmd.png, id=680, 242.40562pt x 17.31468pt>
+File: img/rmd/compile_rmd.png Graphic file (type png)
+
+<use img/rmd/compile_rmd.png>
+Package pdftex.def Info: img/rmd/compile_rmd.png used on input line 3.
+(pdftex.def)             Requested size: 121.2025pt x 8.6573pt.
+
+<img/rmd/other_options.png, id=681, 105.39375pt x 117.43875pt>
+File: img/rmd/other_options.png Graphic file (type png)
+
+<use img/rmd/other_options.png>
+Package pdftex.def Info: img/rmd/other_options.png used on input line 7.
+(pdftex.def)             Requested size: 52.69673pt x 58.71922pt.
+) [54
+
+ <./img/rmd/compile_rmd.png> <./img/rmd/other_options.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [55
+
+]
+<img/rmd/rmd_options.png, id=701, 242.40562pt x 17.31468pt>
+File: img/rmd/rmd_options.png Graphic file (type png)
+
+<use img/rmd/rmd_options.png>
+Package pdftex.def Info: img/rmd/rmd_options.png used on input line 1054.
+(pdftex.def)             Requested size: 121.2025pt x 8.6573pt.
+
+<img/rmd/rmd_options_in_rstudio.png, id=702, 377.91188pt x 341.77687pt>
+File: img/rmd/rmd_options_in_rstudio.png Graphic file (type png)
+
+<use img/rmd/rmd_options_in_rstudio.png>
+Package pdftex.def Info: img/rmd/rmd_options_in_rstudio.png used on input line 
+1054.
+(pdftex.def)             Requested size: 132.27113pt x 119.62369pt.
+ [56
+
+ <./img/rmd/rmd_options.png> <./img/rmd/rmd_options_in_rstudio.png>]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 7.
+) [57
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [58
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[59
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [60
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [61
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (4.52975pt too wide) in paragraph at lines 10--10
+[]                      []\OT1/lmtt/b/n/10.95 sessionInfo[]\OT1/lmtt/m/n/10.95 
+(), []\OT1/lmtt/m/it/10.95 # Current Configuration[][] 
+ []
+
+) [62
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [63
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [64
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[65
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [66
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [67
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (10.27849pt too wide) in paragraph at lines 6--6
+[][]\OT1/lmtt/b/n/10.95 read_chunk[]\OT1/lmtt/m/n/10.95 ([]\TS1/lmtt/m/n/10.95 
+'\OT1/lmtt/m/n/10.95 analysis_code.R\TS1/lmtt/m/n/10.95 '[]\OT1/lmtt/m/n/10.95 
+) []\OT1/lmtt/m/it/10.95 # Reads in file, parses comment[][] 
+ []
+
+) [68
+
+]
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 133
+7.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 1337.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 1337.
+
+[69
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [70
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (37.12111pt too wide) in paragraph at lines 10--10
+[]\OT1/lmtt/m/n/10.95 [stat385 course material](http://stat385.thecoatlessprofe
+ssor.com)[] 
+ []
+
+) [71
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [72
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [73
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[74
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [75
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb) [76
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb
+Overfull \hbox (21.77596pt too wide) in paragraph at lines 9--9
+[]      \OT1/lmtt/m/n/10.95 align=[]\OT1/lmtt/b/n/10.95 c[]\OT1/lmtt/m/n/10.95 
+([]\TS1/lmtt/m/n/10.95 '\OT1/lmtt/m/n/10.95 l\TS1/lmtt/m/n/10.95 '[]\OT1/lmtt/m
+/n/10.95 , []\TS1/lmtt/m/n/10.95 '\OT1/lmtt/m/n/10.95 c\TS1/lmtt/m/n/10.95 '[]\
+OT1/lmtt/m/n/10.95 , []\TS1/lmtt/m/n/10.95 '\OT1/lmtt/m/n/10.95 r\TS1/lmtt/m/n/
+10.95 '[]\OT1/lmtt/m/n/10.95 , []\TS1/lmtt/m/n/10.95 '\OT1/lmtt/m/n/10.95 l\TS1
+/lmtt/m/n/10.95 '[]\OT1/lmtt/m/n/10.95 , []\TS1/lmtt/m/n/10.95 '\OT1/lmtt/m/n/1
+0.95 r\TS1/lmtt/m/n/10.95 '[]\OT1/lmtt/m/n/10.95 ), []\OT1/lmtt/m/it/10.95 # Se
+ts column alignment[][] 
+ []
+
+
+Overfull \hbox (21.77596pt too wide) in paragraph at lines 10--10
+[]      \OT1/lmtt/m/n/10.95 digits=1        []\OT1/lmtt/m/it/10.95 # Restrict a
+mount of digits after decimal[][] 
+ []
+
+) [77
+
+] (./lec2_reproducible_research.toc) [78
+
+] [79
+
+] [80
+
+] [81
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+
+(./lec2_reproducible_research.vrb) [82
+
+]
+\openout4 = `lec2_reproducible_research.vrb'.
+
+ (./lec2_reproducible_research.vrb)
+[83
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 1638.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 1638.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 1638.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <24.88> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1638
+.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <20.74> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1638
+.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 1638
+.
+ [84
+
+]
+\tf@nav=\write7
+\openout7 = `lec2_reproducible_research.nav'.
+
+\tf@toc=\write8
+\openout8 = `lec2_reproducible_research.toc'.
+
+\tf@snm=\write9
+\openout9 = `lec2_reproducible_research.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1640.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1640.
+ (./lec2_reproducible_research.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1640.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1640.
+
+Package rerunfilecheck Info: File `lec2_reproducible_research.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 340FD4DCAD6E2DBD637A273F8763F981;817.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1640.
+ ) 
+Here is how much of TeX's memory you used:
+ 24102 strings out of 493089
+ 497790 string characters out of 6134842
+ 579825 words of memory out of 5000000
+ 26661 multiletter control sequences out of 15000+600000
+ 101712 words of font info for 119 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,17n,67p,1774b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
+015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-
+dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2015/texmf-dist/fonts/e
+nc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/lm/lmsso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/lm/lmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmtti10.pfb>
+Output written on lec2_reproducible_research.pdf (84 pages, 2164736 bytes).
+PDF statistics:
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+

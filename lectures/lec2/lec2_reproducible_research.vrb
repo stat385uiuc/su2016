@@ -1,0 +1,30 @@
+\frametitle{Collaboration Tips}
+\begin{enumerate}
+\item Create a shared space to store all your materials
+\begin{itemize}
+\item \href{https://wiki.cites.illinois.edu/wiki/}{CITES Wiki}
+\item \href{www.dropbox.com}{Dropbox} (2.5 gigs) and \href{https://app.box.com/}{BoxSync} (50 gigs)
+\end{itemize}
+\item Group Document Editing
+\begin{itemize}
+\item \href{https://drive.google.com}{Google Drive} (Unlimited Storage!!!)
+\item \href{www.sharelatex.com}{ShareLaTeX} (1 Collaborator + Supports Knitr)
+\item \href{www.writelatex.com}{writeLaTeX} (1 gig + unlimited collaborators)
+\item MS Word's Track Document Changes
+\end{itemize}
+\item Use a discussion board
+\begin{itemize}
+\item \href{https://groups.google.com/forum/#!overview}{Google Groups}
+\item \href{http://www.cites.illinois.edu/maillist/}{Illinois Mailing Lists}
+\end{itemize}
+\item Use a Versioning Tool
+\begin{itemize}
+\item \href{http://git-scm.com/downloads}{git}
+\item \href{https://subversion.apache.org/packages.html}{svn}
+\end{itemize}
+\item Remote Communications Tools
+\begin{itemize}
+\item \href{http://www.skype.com/en/download-skype/skype-for-computer/}{Skype}
+\item \href{https://www.google.com/hangouts/}{Google Hangouts}
+\end{itemize}
+\end{enumerate}

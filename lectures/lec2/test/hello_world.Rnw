@@ -1,0 +1,11 @@
+\documentclass{article}
+\begin{document}
+Here is an example of storing values:
+<<example-code-chunk-name>>=
+#R Code Here
+x = 1+9
+y = (4*3)/2
+x+y
+@
+Statistics rocks!
+\end{document}

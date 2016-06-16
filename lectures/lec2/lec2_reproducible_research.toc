@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Reproducible Research}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Definition}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Workflow}{8}{0}{1}
+\beamer@sectionintoc {2}{Tools of Reproducible Research}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Overview}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Setting up the Workspace}{14}{0}{2}
+\beamer@sectionintoc {3}{Dynamic Documents}{44}{0}{3}
+\beamer@subsectionintoc {3}{1}{.Rmd documents}{45}{0}{3}
+\beamer@subsectionintoc {3}{2}{Features of \texttt {knitr}}{58}{0}{3}
+\beamer@subsectionintoc {3}{3}{Dynamic Generation}{73}{0}{3}
+\beamer@sectionintoc {4}{Extra}{78}{0}{4}
+\beamer@subsectionintoc {4}{1}{Explanation of Git Commands}{79}{0}{4}
+\beamer@subsectionintoc {4}{2}{Helpful Collaboration Tips}{83}{0}{4}

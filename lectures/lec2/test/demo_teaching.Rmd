@@ -1,0 +1,89 @@
+---
+title: "Example Markdown File"
+author: "JJB + Course"
+date: "6/14/2016"
+output: html_document
+---
+
+# Introduction to Markdown
+
+Hello Class.
+
+How are you?
+
+Class Response: *Good.*
+
+Are you sure?
+
+Class Response: **Yeah.**
+
+What are your favorite kinds of Ice Cream?
+
+* Coffee Ice Cream
+* Mint Chocolate Chip
+* [Black Raspberry Chocolate Chip](http://www.graeters.com/black-raspberry-chocolate-chip)
+
+What does *Black Raspberry Chocolate Chip* look like?
+
+![What it looks like](http://cdn.graeters.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/l/blackraspberrycc-1.jpg)
+
+Most important things to learn in **College**:
+
+1. Sleep Well.
+2. Time Management
+3. [Coffee!](http://members.starbucks.com/)
+4. Extracurriculars in [different fields](http://mrdc.ec.illinois.edu/)
+
+Best place to eat is:
+
+1. Cravings
+1. Maize
+1. Black Dog 
+    1. Pork Ribs
+    1. Burnt Ends
+    1. Cuban Sandwich
+         * Make sure to avoid putting one in the microwave if it has tinfoil around it... 
+1. McDonald... 
+
+
+# Let's Do Some R
+
+In this case, we want to investigate the volume of discharge of the Nile river in Egypt. 
+
+To do so, we should probably:
+
+1. Load the data
+2. Run a quick analysis
+
+```{r nile_data, cache = T, echo = F}
+y = datasets::Nile   # Loaded the data set from datasets
+
+obs = length(y)      # Get the Length of Data
+```
+
+The amount of observations is: `r obs`. I obtained this using the `length()` function.
+
+
+What does our data look like?
+
+```{r nile_plot, cache = T, fig.width = 4, fig.height = 5, fig.align = "center"}
+plot(y)              # Plot the data
+```
+
+What would happen if we tried to model the data using time as our explanatory variable? 
+```{r}
+x = (1:obs)          # Create a time index
+model = lm(y ~ x)    # Perform a simple linear regression (SLR)
+
+model                # View model estimates
+```
+
+```{r}
+plot(x, y, type='l') # Plot the model (note time index)
+points(fitted(model), col='pink') # Plot the fitted values from the model
+```
+
+Let's take a look at how well the model performs by running some inference upon it:
+```{r}
+summary(model)       # View model summary
+```
