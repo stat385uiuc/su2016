@@ -11,5 +11,5 @@ permalink: /lectures/
 #### *Summer 2016*
 
 {% for post in site.categories.lectures %}
-- [{{ post.title }}]({{ post.url }})
+- **{{ post.date | date: '%B %d, %Y' }} {{ post.date | date: '%a' }}** [{{ post.title }}]({{ post.url }})
 {% endfor %}

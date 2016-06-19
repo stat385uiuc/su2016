@@ -35,5 +35,5 @@ Generation Files:
 
 Source of all materials: 
 
-* <http://github.com/coatless/stat385/assets/lectures/lec2>
+* <http://github.com/coatless/stat385/tree/gh-pages/assets/lectures/lec2>
 
