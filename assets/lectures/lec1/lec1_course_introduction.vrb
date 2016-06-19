@@ -1,0 +1,32 @@
+\frametitle{A looping example redux}
+After applying a compiler, there should be a noticeable change...
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(}\hlstr{"compiler"}\hlstd{)}
+\hlstd{good.comp} \hlkwb{=} \hlkwd{cmpfun}\hlstd{(good.loop)}
+\hlstd{bad.comp} \hlkwb{=} \hlkwd{cmpfun}\hlstd{(bad.loop)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{center}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\begin{tabular}{l|r|r|r|r|r}
+\hline
+test & replications & elapsed & relative & user.self & sys.self\\
+\hline
+good.comp & 100 & 0.007 & 1.000 & 0.007 & 0.000\\
+\hline
+bad.comp & 100 & 0.020 & 2.857 & 0.019 & 0.001\\
+\hline
+good.loop & 100 & 0.039 & 5.571 & 0.035 & 0.001\\
+\hline
+bad.loop & 100 & 0.057 & 8.143 & 0.054 & 0.001\\
+\hline
+\end{tabular}
+
+
+\end{knitrout}
+\end{center}

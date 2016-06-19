@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Intro}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Profiles}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Course Structure}{10}{0}{1}
+\beamer@sectionintoc {2}{Intro to Programming}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{Motivation}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{Basics}{22}{0}{2}
+\beamer@sectionintoc {3}{Intro to R}{28}{0}{3}
+\beamer@subsectionintoc {3}{1}{Background of R}{31}{0}{3}
+\beamer@subsectionintoc {3}{2}{RStudio IDE}{33}{0}{3}
+\beamer@subsectionintoc {3}{3}{Sample Code}{36}{0}{3}
+\beamer@sectionintoc {4}{Types of Languages}{41}{0}{4}
+\beamer@subsectionintoc {4}{1}{Interpreters}{43}{0}{4}
+\beamer@subsectionintoc {4}{2}{Compilers}{46}{0}{4}
