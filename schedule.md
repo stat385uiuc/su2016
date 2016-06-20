@@ -26,52 +26,52 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
          * [Chapter 3: Failing to Vectorize](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=17)
 
 # Week 2
-- **6/20/16 - M:** Control Statements, Loops, Big O
+- **6/20/16 - M:** Grouping 101, Advanced R Data Objects, Control Statements, Loops, Big O
     - Read [Iteration](http://r4ds.had.co.nz/iteration.html) in [R for Data Science](http://r4ds.had.co.nz/)
-- **6/21/16 - T:** Functions, Recursive Fairy, Benchmarking
+- **6/21/16 - T:** Functions, Recursive Fairy, Memoization, and Benchmarking
     - **You must be in a group by now!**
     - Read [Functions](http://r4ds.had.co.nz/functions.html) in [R for Data Science](http://r4ds.had.co.nz/)
     - Read [Performance](http://adv-r.had.co.nz/Performance.html) in [Advanced R](http://adv-r.had.co.nz/)
-- **6/23/16 - R:** Errors and Debugging Techniques
+- **6/23/16 - R:** Numerical Stability, Errors and Debugging Techniques (A Study in Calculating Variance)
     - Create an account on [StackOverflow](http://stackoverflow.com) and look at the [R tag](http://stackoverflow.com/questions/tagged/r) questions. Can you answer some? Send me a tweet @axiomsofxyz if you do!
+    - **Submit Group Proposal!**
     
     
 # Week 3
-- **6/27/16 - M:** 
-    - **Submit Group Proposal!**
-- **6/28/16 - T:**
-- **6/30/16 - R:**
+- **6/27/16 - M:** Memory Usage and Profiling 
+- **6/28/16 - T:** Data Management Techniques, Regular Expressions [(regex)](http://regexr.com/), Dates and Times
+- **6/30/16 - R:** S3 Objects (A study in Linear Regression)
 
 
 # Week 4
-- **7/04/16 - M:**  *No Class for Independence Day*
-- **7/05/16 - T:**
+- **7/04/16 - M:** *No Class for Independence Day*
+- **7/05/16 - T:** Exploratory Data Analysis (EDA)
 - **7/07/16 - R:** *Midterm*
 
 [**Drop Deadline:** July 8th, 2016](https://registrar.illinois.edu/summer-academic-calendar-16)
 
 # Week 5
 
-- **7/11/16 - M:**
-- **7/12/16 - T:**  
-- **7/14/16 - R:**
+- **7/11/16 - M:** S4 and RC Objects (A study in probability distributions)
+- **7/12/16 - T:** Package Development (A study in contributing)
+- **7/14/16 - R:** The Apply Family (A study in Efficient Vectorization)
 
 # Week 6
 
-- **7/18/16 - M:**
-- **7/19/16 - T:**
+- **7/18/16 - M:** Shiny
+- **7/19/16 - T:** Simulation Studies
     - **Submit Group Progress Update!**
-- **7/21/16 - R:**
+- **7/21/16 - R:** Distributed Computing with the [Illinois Campus Cluster (ICC)](https://campuscluster.illinois.edu/user_info/doc/beginner.html) 
 
-# Week 7
+# Week 7: High Performance Computing
 
-- **7/25/16 - M:**
-- **7/26/16 - T:**
-- **7/28/16 - R:**
+- **7/25/16 - M:** Welcome to Rcpp Country
+- **7/26/16 - T:** Welcome to STL Country
+- **7/28/16 - R:** Welcome to Matrix Algebra Country
 
 # Week 8
 
-- **8/01/16 - M:**
+- **8/01/16 - M:** Crafting Presentations and Creating a Data Analysis Pipeline
 - **8/02/16 - T:**
 - **8/04/16 - R:** 
     - **Today is Group Presentation day!**
