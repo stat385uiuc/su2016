@@ -25,7 +25,7 @@ Rendered Files:
 Generation Files:
 
 * [Lecture 4: Grouping, Control Structures, and Big O (Rmd)](/assets/lectures/lec4/lec4_grouping_big_oh_control_statements.Rmd)
-* [Lecture 4: Grouping, Control Structures, and Big O (R)](/assets/lectures/lec4/lec4_grouping_big_oh_control_statements.Rmd)
+* [Lecture 4: Grouping, Control Structures, and Big O (R)](/assets/lectures/lec4/lec4_grouping_big_oh_control_statements.R)
 
 # Source Material
 
