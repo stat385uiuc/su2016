@@ -1,0 +1,6 @@
+base
+Rcpp
+rbenchmark
+microbenchmark
+ggplot2
+memoise
