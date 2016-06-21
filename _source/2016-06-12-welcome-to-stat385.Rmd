@@ -1,4 +1,4 @@
-2---
+---
 title: "Welcome to STAT 385 @ UIUC"
 author: "James Balamuta"
 date: "June 12, 2016"
