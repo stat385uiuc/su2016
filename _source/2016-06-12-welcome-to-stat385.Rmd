@@ -1,7 +1,7 @@
----
+2---
 title: "Welcome to STAT 385 @ UIUC"
-author: "JJB"
-date: "June 13, 2016"
+author: "James Balamuta"
+date: "June 12, 2016"
 layout: post
 categories: announcements
 tags: course

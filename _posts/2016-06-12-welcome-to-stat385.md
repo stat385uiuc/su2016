@@ -1,7 +1,7 @@
----
+2---
 title: "Welcome to STAT 385 @ UIUC"
-author: "JJB"
-date: "June 13, 2016"
+author: "James Balamuta"
+date: "June 12, 2016"
 layout: post
 categories: announcements
 tags: course
@@ -18,7 +18,7 @@ Welcome to STAT 385: Statistics Programming Methods at UIUC. The following will 
 **Time:** Monday, Tuesday, and Thursday, 3:00 PM - 4:50 PM
 
 
-![plot of chunk siebel_map](/figure/source/2016-06-13-welcome-to-stat385/siebel_map-1.png)
+![plot of chunk siebel_map](/figure/source/2016-06-12-welcome-to-stat385/siebel_map-1.png)
 
 Generated using: 
 
