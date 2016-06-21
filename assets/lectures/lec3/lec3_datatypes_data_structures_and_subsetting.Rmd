@@ -1,0 +1,732 @@
+---
+title: "Data Types, Data Structures, and Subsetting"
+author: "STAT 385 - James Balamuta"
+date: "June 16, 2016"
+output: beamer_presentation
+---
+
+Overview
+========================================================
+Today's Goals are:
+
+1. Last minute RStudio tweaks
+2. Writing Good Code
+3. Data Types in R
+4. Data Structures (Vectors)
+5. Subsetting
+
+A note...
+========================================================
+
+I'm aware these slides at not nice to look at.
+I'm working hard to create a `.Rmd` template that allows me to compile using my Illinois Template.
+
+**Note:** These slides were switched from `.Rpres` to `.Rmd` due to technology difficulties.
+
+Preparing your environment
+========================================================
+
+Navigate to Tools $\Rightarrow$ Global Options
+
+```{r default_menu, out.width = "100px", fig.retina = NULL, fig.align='center', echo = F, cache = T}
+knitr::include_graphics("figures/menu.png")
+```
+
+Preparing your environment
+========================================================
+
+- Uncheck `Restore .RData` into workspace at startup
+
+- For `Save workspace to .RData on exit`, select the `Never` option from the dropdown. 
+
+```{r default_rstudio, out.width = "200px", fig.retina = NULL, fig.align='center', echo = F, cache = T}
+knitr::include_graphics("figures/default_rstudio.png")
+```
+
+
+Know thine RStudio Environment
+========================================================
+
+There are a *lot* of keyboard shortcuts in RStudio. These shortcuts are meant to speed up your work. 
+
+To view all the options, you must engage the keyboard shortcut that rules them all:
+
+- Windows: `Alt` + `Shift` + `K`
+- macOS: `Option` + `Shift` + `K`
+
+![RStudio Global Shortcut](figures/shortcut_info.png)
+
+My Favorites
+========================================================
+
+1. Runs the current line and/or current selection from the editor to the console and runs it
+    - Windows: `Ctrl` + `Enter` 
+    - macOS: `Cmd` + `Enter`
+2. Comment multiple lines.
+    - Windows: `Ctrl` + `Shift` + `C`	
+    - macOS: `Command` + `Shift` + `C`
+3. Multicursor: 
+    - Windows: `Ctrl` + `Alt` + `Up` (or `Down`)
+    - macOS: `Ctrl` + `Alt` + `Up` (or `Down`)
+4. Reindent Code:
+    - Windows: `Ctrl` + `L`
+    - macOS: `Command` + `I`
+4. Autocomplete command
+    - Both: `Tab`
+
+Writing Code
+========================================================
+
+> Good artists copy; great artists steal.
+>
+> --- Steve Jobs (quoted to Picaso but really T.S Elliot)
+
+- To some degree, we will reinvent the wheel. 
+- In other cases, you may not. 
+
+
+Writing Code
+========================================================
+
+Somethings to know about:
+
+- All R code is immediately accessible by just typing the function name.
+```{r}
+isTRUE
+```
+
+- Sometimes, we may need to pry into R using:
+    - The [`pryr` package](https://cran.r-project.org/web/packages/pryr/index.html)'s `fun_body()`
+    - R's `getAnywhere()` or `methods()`
+- GitHub has a fantastic search engine for code chunks. 
+    - Search via [org:cran](https://github.com/search?q=org%3Acran) using either the name of a function or idea.
+
+Data Types
+========================================================
+
+To a computer, each *variable* must have a specific kind of *data type*. 
+
+**Definition:**
+
+*Data type* is a description that indicates the type of data that can object can hold.
+
+```{r shape_game, out.width = "150px", fig.retina = NULL, fig.align='center', echo = F, cache = T}
+knitr::include_graphics("figures/shape_game.jpg")
+```
+
+It is important that the data are matched with the approriate type.
+
+Supported Data Types
+========================================================
+
+The different types of data supported by `R` are as follows:
+
+- Numeric (double/float)
+    - Examples: `-2`, `0.0`, `6.1`, `41.234`
+- Integer
+    - Examples: `-2L`,`0L`, `3L`, `10L`
+- Complex
+    - Examples: `-1 + 2i`, `0 + 0i`, `1 - 2i`
+- Logical (boolean)
+    - Examples: `TRUE` (`T`) and `FALSE` (`F`)
+    - As a side note: `NA` (missing value) is also considered logical.
+- Character
+    - Examples: `"Hello"`, `"World"`, `"of Statistics"`, `"1 + 1"`
+- Factor
+    - Example: `Levels: 'May','Jun','Jul'`
+- Ordered Factors:
+    - Example: `Levels: 1 < 4 < 6`
+    
+Storing Information in a Variable
+========================================================
+
+- While using R, you may wish to call a calculation at a later time. In such cases, it is ideal to store the computation in a **variable**.
+
+- You do *not* need to specify the variables data type in advance as R will handle that for you. This is good and bad for various reasons that will be covered next under **coercion**.
+
+**Sample Assignments:**
+
+```{r}
+a = 1     # Assign 1 to `a`
+b = 2     # Assign 2 to `b`
+
+d = a + b # Assign the sum of `a` and `b` to `d`.
+```
+
+    
+Storing Missingness in a Variable
+========================================================
+
+> An NA is the presence of an absence. Don't forget that some missing values are the absence of a presence
+>
+> --- Hadley Wickham [twitter](https://twitter.com/hadleywickham/status/738802081448886272)
+
+Within R, there is a specific type that handles "missingness". The type is `NA`. 
+
+Storing Missingness in a Variable
+========================================================
+
+There are `NA` values for many data types. However, all you will really need is `NA`.
+
+```{r}
+NA            # Logical
+
+NA_integer_   # Integer
+
+NA_real_      # Double
+
+NA_character_ # Character
+```
+
+Built-in constants
+========================================================
+
+R has a few pre-defined variables that will make life easier. 
+
+As a result, you no longer have to google: [order of the alphabet](http://lmgtfy.com/?q=order+of+alphabet). 
+
+```{r}
+LETTERS     # Uppercase alphabet
+letters     # Lowercase alphabet
+```
+
+Built-in constants
+========================================================
+
+```{r}
+month.abb   # Abbreviated Month Name
+month.name  # Full Month Name
+pi          # Pi 
+```
+
+Be Warned of the Redefine
+========================================================
+
+You **can** overide these variables on a per session basis. 
+
+So, be **careful** when using them. e.g.
+
+```{r}
+pi        # Initial Value
+pi = 3.14 # Modified the equation
+pi        # View new value
+```
+
+Keep this in mind during later when we work on debugging code... *wink*.
+
+
+Preview Value during Assignment
+========================================================
+
+Previously, we opted to assign and then output the variable contents.
+
+e.g.
+
+```{r}
+life = 42
+life
+```
+
+By enclosing the assignment within paranthesis, e.g. `()`, we can omit one line:
+
+```{r}
+(life = 42)
+```
+
+Style Guide
+========================================================
+
+- When writing code, it is important, especisally in large organizations, to have a **consistent** style.
+- Did you know, UIUC has its own [identity standards](http://identitystandards.illinois.edu/graphicstandardsmanual/index.html)? 
+- For instance, to use UIUC's I-logo, university personnel and vendors must adhere to the correct usage case:
+
+| Correct                       | Incorrect                        |
+|-------------------------------|----------------------------------|
+| ![Default I](figures/i_mark_bold.png) | ![Orange in I](figures/orange_logo.gif)  |
+
+
+Style Guide
+========================================================
+
+- In that vein, organizations, like Google, have created internal [style guides](https://google.github.io/styleguide/Rguide.xml) for code.
+
+- Now, style guides are not per say the *best* practices to use end of discussion. 
+- Instead, they serve to unify the code written by a bunch of different individuals. 
+
+Class Style Guide
+========================================================
+
+- For the most part, we will follow [Google's style advice](https://google.github.io/styleguide/Rguide.xml), which is also used by [Hadley Wickham](http://adv-r.had.co.nz/Style.html). 
+- The main exception to this principle is the avoidance of using the `->` and `<-` assignment operators outside of piping (more later). Of course, you can also switch this by using [formatR](http://yihui.name/formatR/) by [Yihui Xie](http://yihui.name) ([knitr author](http://yihui.name/knitr)).
+
+```{r}
+x = 1  # Good
+
+x <- 1 # Bad
+```
+
+    
+Heterogeneity and Homogenous Data Structures 
+========================================================
+
+R is **unique** in that it provides heterogeneous structures that enable data types to be mixed.
+
+However, there are certain data types that must homogeneous or of the same type.
+
+| Heterogeneous      | Homogeneous      |
+|--------------------|------------------|
+| ![jcf](figures/hetero.jpg) | ![h20](figures/homo.jpg) |
+
+*Note:* Java Chip Frap: 4 Shots + 10 Frap Chips
+
+Heterogeneity vs. Homogenous Data Structures
+========================================================
+
+The different data structures are as follows:
+
+| Dimensions  | Homogeneous          | Heterogeneous |
+|-------------|----------------------|---------------|
+| 1d          | `atomic vector`      | `list`        |
+| 2d          | `matrix`             | `data.frame`  |
+| nd          | `array`              |               |
+
+For the moment, we are going to focus on `vector` structures and `homogeneous` data.
+
+**Questions:**
+
+1. When might we need to use `n`-dimensions of data?
+2. What happens if we mix one data type with another?
+3. Which data structure could potentially rule them all? (e.g. be the parent)
+
+3D Data Examples
+========================================================
+
+Strength of the Relationship
+
+![Correlation Matrix of White Noise](figures/heatmap.png)
+
+3D Data Examples
+========================================================
+
+Viewing Purchase decision of Customers by Part and Store.
+
+![Cube Traits](figures/cube_traits.gif)
+
+
+Atomic Vectors
+========================================================
+
+The majority of work done in R uses **atomic vectors** as building blocks.
+
+To create an empty atomic vector we can use:
+
+```{r}
+a = numeric()   # Numeric
+b = integer()   # Integer
+d = character() # String
+e = complex()   # Complex Number
+f = logical()   # Boolean
+g = factor()    # Factor
+```
+
+This creates an atomic vector of length `0` of a specific type. 
+```{r}
+length(a) # Number of elements contained in the vector
+```
+
+Atomic Vectors
+========================================================
+
+**Notes:**
+
+1. We can only store **one** specific data type per atomic vector (hence, homogeneous).
+2. The length of `0` is only problematic in the case of a `factor`.
+
+Vectors Initialization
+========================================================
+
+To create a vector of length `n`, simply:
+
+```{r}
+n = 20L         # Store a number
+a = numeric(n)  # Create a double
+a               # View entries
+length(a)       # Verify the length
+```
+
+Vectors Initialization
+========================================================
+
+Alternatively, if the values for the vector are already known, the vector can be created using:
+
+```{r}
+(a2 = c(-1,2,4,5,1,6,41,31,23))
+(b2 = c(1L,2L,3L))
+```
+
+Notes:
+
+- `c()` can also be used to concatenate different (add together) objects
+- Avoid naming functions or variables with `c`!
+
+Atomic Vector Depth
+========================================================
+
+Atomic vectors must always be *flat*. 
+
+That is, if you nest different atomic vectors with concatenation, `c()`, the resulting atomic vector should always have dimension 1:
+
+```{r}
+c(1, c(2, c(3, 4)))  # Nested concatenation
+
+c(1, 2, 3, 4)        # Traditional construction
+```
+
+
+Atomic Vector Properties
+========================================================
+
+Each atomic vector has its own properties, in the case of `a`, we have:
+
+```{r}
+typeof(a)        # Determine the type of `a`
+typeof(b2)       # Determine the type of `b2`
+```
+
+Atomic Vector Properties
+========================================================
+
+Attributes, which will cover in depth later, can be viewed as a way to add additional data or metadata.
+```{r}
+attributes(a)     # Access metadata of `a`
+```
+
+Note: The initial vector does not have any other attributes associated with it. We can add some using:
+
+```{r}
+# Set metadata of `a` to include parameter sample with value statistics
+attr(a,"sample") = "Statistics" 
+attributes(a)      # Access metadata of `a`
+```
+
+Identifying an Atomic Vector
+========================================================
+
+To identify the type of an atomic vector, you can create your own check statement or use a built-in function:
+
+```{r eval = F}
+is.character(letters) # Checks for characters
+is.double(1.2:4.4)    # Check for doubles
+is.integer(1L:4L)     # Checks for integers
+is.logical(c(T,F))    # Checks for booleans
+is.atomic(1:4)        # Checks for atomic vector
+```
+
+**Note:** Do not use: `is.vector()`! You will be disappointed in the results.
+
+Mixing Homogeneous Types
+========================================================
+
+As hinted to earlier, it is not ideal to mix homogenous types. 
+
+Consider two atomic vectors: 
+
+```{r}
+a = runif(5)      # Five random numbers from within [0,1]
+b = letters[1:5]  # First 5 letters of the alphabet
+```
+
+The structure of these vectors are:
+
+```{r}
+str(a)            # View the structure of `a`
+
+str(b)            # View the structure of `b`
+```
+
+
+Mixing Homogeneous Types
+========================================================
+
+If we merge them, we get:
+
+```{r}
+d = c(a, b)       # Concatenate `a` and `b`
+
+str(d)            # View the structure of `d`
+```
+
+Notes:
+- Merging with `characters` yields `numeric`
+
+Converting Between Homogeneous Types
+========================================================
+
+Sometimes, you may have data that has been given to you in `character` form but really should be `numeric` and vice versa.
+
+To move between formats you can use:
+
+```{r}
+(x = c(TRUE, FALSE, FALSE, TRUE))
+as.numeric(x)
+
+```
+
+Atomic Vector Access
+========================================================
+
+We can access each element using the `[` operator. 
+
+```{r}
+a[1]     # Access and print first element
+
+a[1] = 2 # Accesss and assign new value to first element
+
+a[1]     # Access and print first element
+```
+
+**Note:** All vectors in *R* start with index 1. 
+
+
+Naming Atomic Vector Values
+========================================================
+
+Sometimes, it might be helpful to label what each value in an Atomic vector is apart of:
+
+e.g. 
+
+```{r}
+x = c("sphynx" = -1, "calypso" = 2, "doomsday" = 0, 
+      "life" = 42, "nine" = 9)
+```
+
+As a result, each component can be referred to by a name:
+
+```{r}
+x[c("doomsday", "life")]
+```
+
+Naming Atomic Vector Values
+========================================================
+
+All of the names within the vector can be known with:
+```{r}
+names(x)
+```
+
+
+Subsetting with Vectors
+========================================================
+
+Sometimes, we may wish to only look at a specific piece of data.
+
+We can get elements at specific positions with:
+```{r}
+x[c(2, 4)]
+```
+
+Or, we can remove elements at specific positions with:
+```{r}
+x[-c(2, 4)]
+```
+
+Subsetting with Vectors
+========================================================
+
+Notes:
+
+1. Indexes must be all positive or all negative.
+2. You cannot use names to remove an element.
+
+```{r, eval = F}
+x[-c("doomsday", "life")]
+# Error in -c("doomsday", "life") : 
+# invalid argument to unary operator
+```
+
+Edge Subsetting Cases
+========================================================
+
+If an index is not included, then the entire vector will be displayed
+
+```{r}
+x[]   # All terms
+```
+
+If you specify 0, there will be an empty vector:
+```{r}
+x[0]  # Empty Vector
+```
+
+Edge Subsetting Cases
+========================================================
+
+If the element is out of bounds, then you will receive an `NA` vector
+```{r}
+x[9]  # Only one NA returned
+
+x[NA] # All terms are NA
+```
+
+
+Changing Element order withing Atomic Vectors
+========================================================
+
+More often then not, you will want to know the progression of elements either in an increasing or decreasing form.
+
+To do so, use: 
+
+```{r}
+x[order(x)]                   # Ascending Order
+
+x[order(x, decreasing = T)]   # Descending Order
+```
+
+
+Changing Element order withing Atomic Vectors
+========================================================
+
+Alternatively, you can sort the vector
+```{r}
+sort(x)
+```
+
+Shortcuts
+========================================================
+
+Vectors have many convenient short cuts. 
+
+1. `x:y` operator allows for the generation of an integer vector. 
+    - `r x = 1:5` `x = 1:5` generates a vector of length `5` that contains $1,2,3, \ldots, 5$ and assigns it to `x`.
+2. `*x`,`/x`,`+x` operators allow the vector to be modified by a term. 
+
+Shortcuts
+========================================================
+
+```{r}
+2 * x       # Multiply all values by two
+
+x / 3       # Divide all values by three
+
+x + 1       # Add one to all values.
+
+2 * (x - 1) # Subtract one from all values and then multiply by 2
+```
+
+Summing an atomic vector
+========================================================
+
+There are two ways we can go about adding up the contents within an atomic vector.
+
+We can use a loop:
+```{r}
+x = 1:5                  # Create initial vector
+sumx = 0                 # Create a sum value
+
+for(i in seq_along(x)){  # Create an index vector
+   sumx = sumx + x[i]    # Access each [i] and sum over it
+}
+```
+
+
+Summing an atomic vector
+========================================================
+
+Or, we can use a vectorized function:
+```{r}
+sumx_v2 = sum(x)         # Use a vectorized calculation
+```
+
+We will need to verify if the calculation is the same:
+```{r}
+all.equal(sumx, sumx_v2) # Verify equality
+```
+
+
+Other helpful shortcuts
+========================================================
+
+- `rep()` function provides a way to replicate values throughout the vector.
+```{r}
+# Generates a vector of length `5` that contains only 1
+rep(1,5)
+```
+
+Other helpful shortcuts
+========================================================
+
+- `seq()` function provides a way to create a sequence of values.
+    - **Note:** This approach is considerably slower than using `1:5` due to the methods genericness.
+```{r}
+# Generates a vector of length `5` that contains 1, 2, 3, ... , 5
+seq(1,5)
+```
+
+Other helpful shortcuts
+========================================================
+
+- `seq(from,to,by)` function provides a way to create a sequence of values with a specific incrementer.
+```{r}
+# Generates a vector of length `10` containing 0.0, 0.1, ..., 1.0
+seq(0, 1, by = 0.1)
+```
+
+
+Other helpful shortcuts
+========================================================
+
+For the next set of shortcuts, note the following assignments:
+
+```{r}
+y = c(1,5,6,2,4) # Create a vector
+n = length(y)    # Obtain the Length
+```
+
+
+
+Other helpful shortcuts
+========================================================
+- `seq_len()` function provides a way to create a vector based on length.
+```{r}
+# Generates a vector starting at `1` and going to `n`.
+seq_len(n)
+```
+
+**Note:** We will see an example later where this is used to protect a looping counter.
+
+Other helpful shortcuts
+========================================================
+
+- `seq_along()` function provides a way to obtain an index for each element in the vector.
+```{r}
+# Generates a vector starting at `1` and 
+# going to `length(y)`. 
+seq_along(y)
+```
+
+**Note:** We will see an example later where this is used to protect a looping counter.
+
+A note on shortcuts
+========================================================
+
+*Warning:* If the term being multiplied is another vector, R will recycle values in the previous vector. 
+
+Take for example:
+`r x = 1:6`
+```{r}
+x         # Original
+c(-1,1)*x # Recycled values of x
+```
+
+
+A note on shortcuts
+========================================================
+
+This is helpful when constructing confidence intervals. Consider the Confidence Intervals for Proportions Formula:
+
+\begin{align}
+Estimate &\pm MOE \\
+\hat p &\pm {z_{\alpha /2} }\left( {\sqrt {\frac{ {\hat p\left( {1 - \hat p} \right)} }{n} } } \right)
+\end{align}
+
+How could we use this property to avoid recomputing the MOE? 
