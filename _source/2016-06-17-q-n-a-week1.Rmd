@@ -1,0 +1,34 @@
+---
+title: "Week 1: Questions of the Week"
+author: "STAT 385 - James Balamuta"
+date: "June 17, 2016"
+layout: post
+categories: qna
+tags:
+- questions
+- answers
+---
+
+# Introduction
+
+Every week students are allowed to ask a question that is not necessarily related to course material and get a response. The questions of course must be appropriate and the student must feel comfortable answering it.
+
+Typically, these questions are associated with a weekly feedback survey that tries to figure out areas of the course that can be improved or topics that were covered well.
+
+# Questions
+
+1. **Q:** *What is your favorite restaurant in Urbana or Champaign?*
+   - In Champaign, my favorite restaurant is [Black Dog](http://www.blackdogsmoke.com/) because of the [burnt ends](https://en.wikipedia.org/wiki/Burnt_ends) and [cuban sandwiches](https://en.wikipedia.org/wiki/Cuban_sandwich)
+   - In Urbana, I prefer eating at the [Courier Cafe](http://couriercafe.squarespace.com/) to relive the memories of my youth. 
+1. **Q:** *What statistical packages will we be learning?*
+   - The course is currently structure to emphasis a developer-first approach to statistics. We're going to aim to discuss packages that enable you to create new functions or extend current features. 
+1. **Q:** *If you could call yourself 5 years ago and had 30 seconds, what would you say?*
+   - Very likely, I would end up trying to convince myself from 5 years ago that I am indeed from the future. At the very end, I probably would be able to quickly blurt out ...
+1. **Q:** *Why are you asking this?*
+   - Why not ask this? You are giving me helpful information and it might be nice for you to have something in return. (Outside of an improved course experience.)
+1. **Q:** *I never actually learn how to code except now a little bit about R and Mplus. Is the class suitable for me?*
+   - This class is **definitely** suitable for you. It will cover programming from the perspective of a Statistician. 
+1. **Q:**  *Why *R* is so widely used in indurstry?*
+   - As with all good things, *R* is free. In contrast, the license cost per computer for *SAS* [is $9,200](https://www.sas.com/store/software/analytics-pro/prodPERSANL.html)!
+   - The majority of Statisticians were also trained using *R* and the latest methods normally are appearing here.
+   - Lastly, the main reason for the surgence of *R* is due to the Hadleyverse making analysis in R more straightforward.
