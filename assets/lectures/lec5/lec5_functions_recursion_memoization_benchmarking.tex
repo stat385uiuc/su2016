@@ -456,13 +456,13 @@ different summations to compute other useful diagnostic information:
 \tightlist
 \item
   The Total Sum of Squares (TSS)
-  \[TSS = \sum\limits_{i = 1}^n {{{\left( {{y_i} - {{\bar y}_i}} \right)}^2}}\]
+  \[TSS = \sum\limits_{i = 1}^n { { {\left( { {y_i} - { {\bar y}_i} } \right)}^2} }\]
 \item
   Fitted Sum of Squares (FSS)
-  \[FSS = \sum\limits_{i = 1}^n {{{\left( {{{\hat y}_i} - \bar y} \right)}^2}}\]
+  \[FSS = \sum\limits_{i = 1}^n { { {\left( { { {\hat y}_i} - \bar y} \right)}^2} }\]
 \item
   Residual Sum of Squares (RSS)
-  \[RSS = \sum\limits_{i = 1}^n {{{\left( {{y_i} - \hat y} \right)}^2}}\]
+  \[RSS = \sum\limits_{i = 1}^n { { {\left( { {y_i} - \hat y} \right)}^2} }\]
 \end{itemize}
 
 \end{frame}
@@ -495,7 +495,7 @@ These summations have the following relationship:
 
 \[\begin{aligned}
   TSS &= RSS + FSS \\
-  \sum\limits_{i = 1}^n {{{\left( {{y_i} - {{\hat y}_i}} \right)}^2}}  &= \sum\limits_{i = 1}^n {{{\left( {{y_i} - \bar y} \right)}^2}}  + \sum\limits_{i = 1}^n {{{\left( {{{\hat y}_i} - \bar y} \right)}^2}}  \\ 
+\sum\limits_{i = 1}^n { { {\left( { {y_i} - \bar y} \right)}^2} }  = \sum\limits_{i = 1}^n { { {\left( { {y_i} - { {\hat y}_i} } \right)}^2} } + \sum\limits_{i = 1}^n { { {\left( { { {\hat y}_i} - \bar y} \right)}^2} } 
 \end{aligned}\]
 
 \end{frame}
@@ -515,6 +515,54 @@ relationship, we get:
 \NormalTok{\}}
 \end{Highlighting}
 \end{Shaded}
+
+\end{frame}
+
+\begin{frame}[fragile]{Dynamic Function Call - Linear Regression}
+
+Setup data:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Number of Observations}
+\NormalTok{n =}\StringTok{ }\DecValTok{10}
+\CommentTok{# Generate x}
+\NormalTok{x =}\StringTok{ }\KeywordTok{seq}\NormalTok{(}\DecValTok{0}\NormalTok{, }\DecValTok{1}\NormalTok{, }\DataTypeTok{length.out =} \NormalTok{n)}
+
+\CommentTok{# Generate random y}
+\CommentTok{# Set seed for reproducibility}
+\KeywordTok{set.seed}\NormalTok{(}\DecValTok{114}\NormalTok{)}
+\NormalTok{y =}\StringTok{ }\KeywordTok{runif}\NormalTok{(n)}
+
+\CommentTok{# Calculate mean}
+\NormalTok{y_bar =}\StringTok{ }\KeywordTok{mean}\NormalTok{(y)}
+
+\CommentTok{# Obtain y_hat}
+\NormalTok{y_hat =}\StringTok{ }\KeywordTok{lm}\NormalTok{(y~x)$fitted.values}
+\end{Highlighting}
+\end{Shaded}
+
+\end{frame}
+
+\begin{frame}[fragile]{Dynamic Function Call - Linear Regression}
+
+Call the functions
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Compute}
+\NormalTok{rss =}\StringTok{ }\KeywordTok{compute_rss}\NormalTok{(y, y_bar)}
+\NormalTok{fss =}\StringTok{ }\KeywordTok{compute_fss}\NormalTok{(y_hat, y_bar)}
+\NormalTok{tss =}\StringTok{ }\KeywordTok{compute_tss}\NormalTok{(y, y_bar)}
+\NormalTok{tss_v2 =}\StringTok{ }\KeywordTok{tss_relationship}\NormalTok{(y, y_hat, y_bar)}
+
+\KeywordTok{all.equal}\NormalTok{(tss, tss_v2)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] TRUE
+\end{verbatim}
 
 \end{frame}
 
@@ -673,7 +721,7 @@ Another example of recursion would be that of the \textbf{power
 function} that acts to simplify repetitve multiplication of one object.
 
 \[\begin{aligned}
-  {x^k} &= x \cdot {x^{k - 1}} \\
+  {x^k} &= x \cdot {x^{k - 1} } \\
    &= x \cdot x \cdots x \\
    &= \prod\limits_{i = 1}^k x\\ 
 \end{aligned} \]
@@ -835,7 +883,7 @@ Gamma function for integers \(n! = \Gamma \left( {n + 1} \right)\)
   \textbf{Permutations:} Order of selection matters without replication
 \end{itemize}
 
-\[P\left( {n,k} \right) = \frac{{n!}}{{\left( {n - k} \right)!}}\]
+\[P\left( {n,k} \right) = \frac{ {n!} }{ {\left( {n - k} \right)!} }\]
 
 \begin{itemize}
 \tightlist
@@ -849,8 +897,8 @@ C\left( {n,k} \right) &=\left( \begin{gathered}
   n  \\
   k  \\ 
 \end{gathered}  \right) \\
-&=  \frac{{P\left( {n,k} \right)}}{{P\left( {k,k} \right)}} \\
-&= \frac{{n!}}{{k!\left( {n - k} \right)!}}
+&=  \frac{ {P\left( {n,k} \right)} }{ {P\left( {k,k} \right)} } \\
+&= \frac{ {n!} }{ {k!\left( {n - k} \right)!} }
 \end{aligned}\]
 
 \end{frame}
@@ -1091,7 +1139,7 @@ objects:
 \NormalTok{f =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=}\DecValTok{1}\NormalTok{/(}\DecValTok{1}\NormalTok{+x)}
 \NormalTok{g =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=(}\DecValTok{1}\NormalTok{/(}\DecValTok{1}\NormalTok{+x))}
 \NormalTok{h =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=(}\DecValTok{1}\NormalTok{+x)^(-}\DecValTok{1}\NormalTok{)}
-\NormalTok{j =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=\{}\DecValTok{1}\NormalTok{/\{}\DecValTok{1}\NormalTok{+x\}\}}
+\NormalTok{j =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=\{}\DecValTok{1}\NormalTok{/\{}\DecValTok{1}\NormalTok{+x\} \}}
 \NormalTok{k =}\StringTok{ }\NormalTok{function(n, }\DataTypeTok{x=}\DecValTok{1}\NormalTok{) for (i in }\DecValTok{1}\NormalTok{:n) x=}\DecValTok{1}\NormalTok{/\{}\DecValTok{1}\NormalTok{+x\}}
 \end{Highlighting}
 \end{Shaded}
@@ -1128,14 +1176,16 @@ replications.
 
 The benchmark is initiated by:
 
-\begin{verbatim}
-# Load Library
-library('rbenchmark')
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Load Library}
+\KeywordTok{library}\NormalTok{(}\StringTok{'rbenchmark'}\NormalTok{)}
 
-# Run benchmark
-benchmark(testfun1 = somefun(),
-          testfun2 = otherfun())
-\end{verbatim}
+\CommentTok{# Run benchmark}
+\KeywordTok{benchmark}\NormalTok{(}\DataTypeTok{testfun1 =} \KeywordTok{somefun}\NormalTok{(),}
+          \DataTypeTok{testfun2 =} \KeywordTok{otherfun}\NormalTok{())}
+\end{Highlighting}
+\end{Shaded}
 
 \end{frame}
 
@@ -1164,20 +1214,26 @@ The results returned are:
 \CommentTok{# Run benchmark}
 \NormalTok{out =}\StringTok{ }\KeywordTok{benchmark}\NormalTok{(}\DataTypeTok{mat.op =} \KeywordTok{apply}\NormalTok{(matrix.op, }\DecValTok{2}\NormalTok{, sd), }
                 \DataTypeTok{df.op =} \KeywordTok{apply}\NormalTok{(dataframe.op, }\DecValTok{2}\NormalTok{, sd))}
+\end{Highlighting}
+\end{Shaded}
 
+\begin{Shaded}
+\begin{Highlighting}[]
 \CommentTok{# Table Object}
 \NormalTok{out}
 \end{Highlighting}
 \end{Shaded}
 
-\begin{verbatim}
-##     test replications elapsed relative user.self sys.self user.child
-## 2  df.op          100   5.659    2.484     4.747    0.202          0
-## 1 mat.op          100   2.278    1.000     2.008    0.114          0
-##   sys.child
-## 2         0
-## 1         0
-\end{verbatim}
+\begin{longtable}[c]{@{}lrrrrrrr@{}}
+\toprule
+test & replications & elapsed & relative & user.self & sys.self &
+user.child & sys.child\tabularnewline
+\midrule
+\endhead
+df.op & 100 & 5.20 & 2.07 & 4.95 & 0.18 & 0 & 0\tabularnewline
+mat.op & 100 & 2.52 & 1.00 & 2.38 & 0.10 & 0 & 0\tabularnewline
+\bottomrule
+\end{longtable}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1345,12 +1401,13 @@ d(N, 1) & 8.33 & 8.50 & 8.84 & 8.69 & 8.81 & 10.90 & 20\tabularnewline
 
 \end{frame}
 
-\begin{frame}[fragile]{Visualization using \texttt{microbenchmark}}
+\begin{frame}[fragile]{Visualization using \texttt{microbenchmark} and
+\texttt{ggplot2}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \KeywordTok{library}\NormalTok{(ggplot2)}
-\KeywordTok{autoplot}\NormalTok{(out)}
+\KeywordTok{autoplot}\NormalTok{(out)   }\CommentTok{# Creates a violin plot of the data}
 \end{Highlighting}
 \end{Shaded}
 
@@ -1500,10 +1557,9 @@ We then refer to the memoized function just like normal previously, e.g.
 
 \end{frame}
 
-\begin{frame}[fragile]{Benchmarks}
+\begin{frame}[fragile]{A word\ldots{}}
 
-When we write it this way, we gain speed due to the cache given by
-memoization being used. e.g.
+The memoization will only apply to the top level function call.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1531,26 +1587,29 @@ memoization being used. e.g.
 
 \begin{frame}[fragile]{Benchmarks}
 
+When we write it this way, we gain speed due to the cache given by
+memoization being used. e.g.
+
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{system.time}\NormalTok{(\{}\KeywordTok{fibonacci}\NormalTok{(}\DecValTok{25}\NormalTok{)\}) }\CommentTok{# Normal}
+\KeywordTok{system.time}\NormalTok{(\{}\KeywordTok{mem_fib}\NormalTok{(}\DecValTok{25}\NormalTok{)\})   }\CommentTok{# Registers value in map}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
 ##    user  system elapsed 
-##   0.166   0.000   0.168
+##   0.170   0.004   0.175
 \end{verbatim}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\KeywordTok{system.time}\NormalTok{(\{}\KeywordTok{mem_fib}\NormalTok{(}\DecValTok{25}\NormalTok{)\})   }\CommentTok{# Memoized}
+\KeywordTok{system.time}\NormalTok{(\{}\KeywordTok{mem_fib}\NormalTok{(}\DecValTok{25}\NormalTok{)\})   }\CommentTok{# Extracts value from map}
 \end{Highlighting}
 \end{Shaded}
 
 \begin{verbatim}
 ##    user  system elapsed 
-##   0.168   0.000   0.171
+##       0       0       0
 \end{verbatim}
 
 \end{frame}
@@ -1582,9 +1641,7 @@ You will have to declare it again.
 \item
   Memoization is used for speed
 \item
-  Very helpful for recursive functions
-\item
-  Watch the catch
+  Be wary of the catch
 \end{itemize}
 
 \end{frame}

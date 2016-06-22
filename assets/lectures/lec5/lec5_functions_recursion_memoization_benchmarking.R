@@ -112,9 +112,37 @@ tss_relationship = function (y, y_hat, y_bar)  {
   return( tss )
 }
 
+## ----data_setup, cache = TRUE--------------------------------------------
+# Number of Observations
+n = 10
+# Generate x
+x = seq(0, 1, length.out = n)
+
+# Generate random y
+# Set seed for reproducibility
+set.seed(114)
+y = runif(n)
+
+# Calculate mean
+y_bar = mean(y)
+
+# Obtain y_hat
+y_hat = lm(y~x)$fitted.values
+
+## ----computations, cache = T---------------------------------------------
+# Compute
+rss = compute_rss(y, y_bar)
+fss = compute_fss(y_hat, y_bar)
+tss = compute_tss(y, y_bar)
+tss_v2 = tss_relationship(y, y_hat, y_bar)
+
+# Verify equality
+all.equal(tss, tss_v2)
+
 ## ---- eval = F, cache = T------------------------------------------------
+## # Note `value` has not been defined.
 ## multiple_constant = function(x) {
-##   return(value * x) # Note `value` has not been defined.
+##   return(value * x)
 ## }
 ## 
 ## # Only on call is an error detected.
@@ -133,6 +161,9 @@ multiple_constant = function(x) {
 }
 
 multiple_constant(5)
+
+## ---- out.width = "250px", fig.retina = NULL, fig.align='center', echo = F, cache = T----
+knitr::include_graphics("figures/google_recursion.png")
 
 ## ----pow_loop, cache = T-------------------------------------------------
 pow_loop = function(x, n){ # Define function
@@ -212,7 +243,7 @@ dataframe.op = as.data.frame(matrix.op)
 f = function(n, x=1) for (i in 1:n) x=1/(1+x)
 g = function(n, x=1) for (i in 1:n) x=(1/(1+x))
 h = function(n, x=1) for (i in 1:n) x=(1+x)^(-1)
-j = function(n, x=1) for (i in 1:n) x={1/{1+x}}
+j = function(n, x=1) for (i in 1:n) x={1/{1+x} }
 k = function(n, x=1) for (i in 1:n) x=1/{1+x}
 
 ## ----benchmark_rcpp_brackets, cache = TRUE-------------------------------
@@ -225,7 +256,7 @@ cppFunction(code='int d(int n, double x = 1.0){
                   return x;
                   }')
 
-## ----_benchmark, eval=FALSE, cache = TRUE, engine="demo"-----------------
+## ----demo_benchmark, eval=FALSE, cache = TRUE----------------------------
 ## # Load Library
 ## library('rbenchmark')
 ## 
@@ -241,8 +272,13 @@ library('rbenchmark')
 out = benchmark(mat.op = apply(matrix.op, 2, sd), 
                 df.op = apply(dataframe.op, 2, sd))
 
-# Table Object
-out
+
+## ----op_out_benchmark, cache = TRUE, eval = FALSE------------------------
+## # Table Object
+## out
+
+## ----op_out_benchmark_table, cache = TRUE, echo = FALSE------------------
+knitr::kable(out, digits = 2, row.names = F)
 
 ## ----benchmark_demo_data_structure_avg_time, cache = TRUE----------------
 # Average time spent per iteration
@@ -303,16 +339,24 @@ knitr::kable(summary(out), digits = 2)
 
 ## ----compare_ggplot2, cache = TRUE, fig.height=2, fig.width=5------------
 library(ggplot2)
-autoplot(out)
+autoplot(out)   # Creates a violin plot of the data
 
 ## ----fib-----------------------------------------------------------------
 fibonacci = function(n) {
-   if (n < 2) {
+   if (n <= 2) {
      return(1)
    }
   
    return(fibonacci(n-2) + fibonacci(n-1))
 }
+
+## ---- cache = T, echo = F------------------------------------------------
+library("ggplot2")
+d = data.frame(Fibonacci = sapply(1:10, fibonacci),
+               N = 1L:10L)
+
+ggplot(d, aes(N, Fibonacci)) + geom_line() + geom_point() +
+  scale_x_continuous(labels = function (x) floor(x))
 
 ## ----mem_example, cache = TRUE-------------------------------------------
 library("memoise")
@@ -323,13 +367,25 @@ fibonacci(5) # Normal
 mem_fib(5)   # Memoized
 
 ## ----mem_ized_fib, cache = TRUE------------------------------------------
-system.time({fibonacci(35)}) # Normal
-system.time({mem_fib(35)})   # Memoized
+system.time({mem_fib(34)}) # First time calculation
+system.time({mem_fib(35)}) # First time calculation
+
+## ----memized_fib_v2, cache = TRUE----------------------------------------
+internal_mem_fib = memoise(function(n) { 
+  if (n <= 2){
+    return(1)
+  }
+  
+  # Note the reference to the outside declaration
+  return(internal_mem_fib(n - 2) + internal_mem_fib(n - 1))
+})
 
 ## ----memoized_v2, cache = T----------------------------------------------
-system.time({fibonacci(25)}) # Normal
-system.time({mem_fib(25)})   # Memoized
+system.time({mem_fib(25)}) # Registers value in map
+system.time({mem_fib(25)}) # Extracts value from map
+system.time({internal_mem_fib(25)}) # Built in Memoization
 
 ## ----memized_cache, cache = TRUE-----------------------------------------
-forget(mem_fib(35))
+forget(mem_fib)
+forget(internal_mem_fib)
 
