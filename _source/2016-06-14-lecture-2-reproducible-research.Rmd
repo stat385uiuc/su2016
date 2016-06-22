@@ -21,15 +21,15 @@ Within this lecture, we will explore the benefits of adhering to reproducible te
 Rendered Files:
 
 * [Lecture 2: Reproducible Research (PDF)](/assets/lectures/lec2/lec2_reproducible_research.pdf)
-* [Markdown Sample (Rmd)](/assets/lectures/lec2/demo_teaching.html)
+* [Markdown Sample (Rmd)](/assets/lectures/lec2/test/demo_teaching.html)
 
 Generation Files:
 
 * [Lecture 2: Reproducible Research (Rnw)](/assets/lectures/lec2/lec2_reproducible_research.Rnw)
 * [Lecture 2: Reproducible Research (R)](/assets/lectures/lec2/r_lec2_reproducible_research.R)
 * [Sample Bibliography](/assets/lectures/lec2/mybib.bib)
-* [Hello World (Rnw)](/assets/lectures/lec2/test/helloworld.Rnw)
-* [Markdown Sample (Rmd)](/assets/lectures/lec2/demo_teaching.Rmd)
+* [Hello World (Rnw)](/assets/lectures/lec2/test/hello_world.Rnw)
+* [Markdown Sample (Rmd)](/assets/lectures/lec2/test/demo_teaching.Rmd)
 
 # Source Material
 
