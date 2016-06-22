@@ -26,20 +26,21 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
          * [Chapter 3: Failing to Vectorize](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=17)
 
 # Week 2
-- **6/20/16 - M:** Grouping 101, Advanced R Data Objects, Control Statements, Loops, Big O
+- **6/20/16 - M:** Grouping 101, Control Statements, Loops, Big O
     - Read [Iteration](http://r4ds.had.co.nz/iteration.html) in [R for Data Science](http://r4ds.had.co.nz/)
 - **6/21/16 - T:** Functions, Recursive Fairy, Memoization, and Benchmarking
     - **You must be in a group by now!**
     - Read [Functions](http://r4ds.had.co.nz/functions.html) in [R for Data Science](http://r4ds.had.co.nz/)
-    - Read [Performance](http://adv-r.had.co.nz/Performance.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Performance chapter uptill "Language performance"](http://adv-r.had.co.nz/Performance.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Memoization witin Functional Operators](http://adv-r.had.co.nz/Function-operators.html) in [Advanced R](http://adv-r.had.co.nz/)
 - **6/23/16 - R:** Numerical Stability, Errors and Debugging Techniques (A Study in Calculating Variance)
     - Create an account on [StackOverflow](http://stackoverflow.com) and look at the [R tag](http://stackoverflow.com/questions/tagged/r) questions. Can you answer some? Send me a tweet @axiomsofxyz if you do!
-    - **Submit Group Proposal!**
     
     
 # Week 3
 - **6/27/16 - M:** Memory Usage and Profiling 
 - **6/28/16 - T:** Data Management Techniques, Regular Expressions [(regex)](http://regexr.com/), Dates and Times
+    - **Submit Group Proposal!**
 - **6/30/16 - R:** S3 Objects (A study in Linear Regression)
 
 
