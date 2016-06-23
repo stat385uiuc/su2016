@@ -37,6 +37,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
     - Read [Memoization witin Functional Operators](http://adv-r.had.co.nz/Function-operators.html) in [Advanced R](http://adv-r.had.co.nz/)
 - **6/23/16 - R:** Numerical Stability, Errors and Debugging Techniques (A Study in Calculating Variance)
     - Read [Debugging, condition handling, and defensive programming](http://adv-r.had.co.nz/Exceptions-Debugging.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Circle 1: Falling into the Floating Point Trap](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=10)
     - Create an account on [StackOverflow](http://stackoverflow.com) and look at the [R tag](http://stackoverflow.com/questions/tagged/r) questions. Can you answer some? Send me a tweet @axiomsofxyz if you do!
     
     
