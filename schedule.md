@@ -24,20 +24,23 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
     - Read [Data structures](http://adv-r.had.co.nz/Data-structures.html) and [Subsetting](http://adv-r.had.co.nz/Subsetting.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Additional Reading: 
          * [Vectors](http://r4ds.had.co.nz/vectors.html) in [R for Data Science](http://r4ds.had.co.nz/)
-         * [Chapter 3: Failing to Vectorize](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=17)
+         * [Circle 3: Failing to Vectorize](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=17) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 
 # Week 2
 
 - **6/20/16 - M:** Grouping 101, Control Statements, Loops, Big O
     - Read [Iteration](http://r4ds.had.co.nz/iteration.html) in [R for Data Science](http://r4ds.had.co.nz/)
+    - Read [Circle 2: Growing Objects](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=13)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 - **6/21/16 - T:** Functions, Recursion, Memoization, and Benchmarking
     - **You must be in a group by now!**
     - Read [Functions](http://r4ds.had.co.nz/functions.html) in [R for Data Science](http://r4ds.had.co.nz/)
     - Read [Performance chapter until "Language performance"](http://adv-r.had.co.nz/Performance.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Read [Memoization witin Functional Operators](http://adv-r.had.co.nz/Function-operators.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Circle 5: Not Writing Functions](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=28)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 - **6/23/16 - R:** Numerical Stability, Errors and Debugging Techniques (A Study in Calculating Variance)
     - Read [Debugging, condition handling, and defensive programming](http://adv-r.had.co.nz/Exceptions-Debugging.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Read [Circle 1: Falling into the Floating Point Trap](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=10)
+    - Read [Introduction to Circle 8: ](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=45) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
     - Create an account on [StackOverflow](http://stackoverflow.com) and look at the [R tag](http://stackoverflow.com/questions/tagged/r) questions. Can you answer some? Send me a tweet @axiomsofxyz if you do!
     
     
@@ -46,10 +49,11 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 - **6/27/16 - M:** Advanced Data Structures, Memory Usage and Profiling 
     - Read [Profiling](http://adv-r.had.co.nz/Profiling.html) and [Memory](http://adv-r.had.co.nz/memory.html) in [Advanced R](http://adv-r.had.co.nz/)
 - **6/28/16 - T:** Data Management Techniques, Regular Expressions [(regex)](http://regexr.com/), Dates and Times
-    - Read [Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)  in [R for Data Science](http://r4ds.had.co.nz/)
+    - Read [Strings](http://r4ds.had.co.nz/strings.html) and [Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)  in [R for Data Science](http://r4ds.had.co.nz/)
     - **>> Submit Group Proposal! <<**
 - **6/30/16 - R:** S3 Objects and Ellipses (A study in Linear Regression)
     - Read [S3 section within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Section 7.1 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=39)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 
 # Week 4
 
@@ -67,9 +71,11 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 
 - **7/11/16 - M:** S4 and RC Objects (A study in probability distributions)
     - Read [S4 and RC sections within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Section 7.2 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=41) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 - **7/12/16 - T:** Package Development (A study in contributing)
     - Read [Package Structure](http://r-pkgs.had.co.nz/package.html), [Object Documentation](http://r-pkgs.had.co.nz/man.html) and [Testing](http://r-pkgs.had.co.nz/tests.html) in [R Packages](http://r-pkgs.had.co.nz/)
 - **7/14/16 - R:** The Apply Family (A study in Efficient Vectorization)
+    - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 
 # Week 6
 
