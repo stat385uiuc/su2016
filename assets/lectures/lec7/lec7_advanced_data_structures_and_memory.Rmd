@@ -107,7 +107,7 @@ $$\left[{\begin{array}{*{20}{c} }
 `atomic vector`s with the same length. 
 
 ```{r matrix_rnorm_col, echo = TRUE, cache = TRUE}
-(x = c(c(1,2,3),c(1,2,3)) )  # Create data
+(x = c(c(1,2,3),c(1,2,3)) )         # Create data
 (y = matrix(x, nrow = 3, ncol = 2)) # Make the Matrix
 ```
 
@@ -326,10 +326,10 @@ y = x%*%beta + error    # Generate Y
 
 - **Definition:** An `array` is a n-dimensional collection of numbers,
 symbols, or expressions that are placed into rows and columns. 
-- Dimensions of the `array` are read as: $N \times P \times D \times \cdots \times D_p$
+- Dimensions of the `array` are read as: $N \times P \times D_1 \times \cdots \times D_p$
     - $N$ indicates the number of rows (observations)
     - $P$ indicates the number of columns (variables)
-    - $D$ indicates the depth of the column (time)
+    - $D_1$ indicates the depth of the frame (time)
     - $D_{p}$ indicates even more depth. 
 - **Note:** A `matrix` and an `atomic vector` are a special cases of an `array`
 
@@ -425,8 +425,8 @@ str(x)                # Contents
 - Just like always, we can subset a `list` using its index:
 
 ```{r list_subset_numeric, cache = TRUE}
-x[1]     # Index
-x[[1]]   # Index Preservation
+x[1]     # Index Preservation
+x[[1]]   # Index Simplified
 ```
 
 ## Heterogenous `list` - Named Subsets 
@@ -434,9 +434,9 @@ x[[1]]   # Index Preservation
 - If the `list` has names, we can subset the `list` by name:
 
 ```{r list_subset, cache = TRUE}
-x["a"]   # Named
-x$a      # Named
-x[["a"]] # Named Preservation
+x["a"]   # Named Preservation
+x$a      # Named Simplified
+x[["a"]] # Named Simplified
 ```
 
 ## Heterogenous `data.frame`
@@ -710,7 +710,6 @@ the storage capacity of numeric matrix.
 ## How much data could a data package chuck if a data package could chuck data?
 
 ```{r inside_the_machine, cache = T}
-
 # For reproducibility
 set.seed(1337)
 
@@ -723,7 +722,7 @@ pryr::object_size(a)
 
 ## Summary of First Round
 
-- So, within 5 MB of memory, the largest data set has a total of `r length(a)` 
+- So, within **5 MB** of memory, the largest data set has a total of `r length(a)` 
 elements. 
 - However, this is not the largest data set we can include in an R data package. 
     - More when we talk about R packages!
