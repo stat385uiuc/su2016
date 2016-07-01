@@ -34,7 +34,7 @@ methods(class='matrix')[1:6]
 ## ----one_step------------------------------------------------------------
 # ----- One Step S3 Construct
 
-# Create andy student object and assign class student
+# Create object `andy` and assign class `student`
 andy = structure(list(), class = "student")
 
 class(andy)              # Check class
@@ -69,25 +69,37 @@ inherits(andy, "student")
 
 inherits(andy, "list")
 
-## ----define_generics-----------------------------------------------------
+## ----define_generics_human-----------------------------------------------
 # Create a role identifier
 
-# Instructor
-role.instructor = function(x){ # Instructor
-  cat("Greetings and Salutations", x$fname, "\n",
+# method `role` for class `human`
+role.human = function(x){             
+  cat("Hi there human", x$fname, "!\n")
+}
+
+## ----define_generics-----------------------------------------------------
+
+# method `role` for class `instructor`
+role.instructor = function(x){
+  cat("Greetings and Salutations", x$fname, ",\n",
       "You are an instructor for", x$course, "\n")
 }
 
-role.student = function(x){    # Student
-    cat("Hey ", x$fname, "!\n",
-      "Are you in ", x$course, "?\n")
+# method `role` for class `student`
+role.student = function(x){
+    cat("Hey", x$fname, "!\n",
+      "You are inL", x$course, "\n",
+      "Your grade is:", x$grade, "\n")
 }
 
 ## ----generic_func--------------------------------------------------------
 # Create a default case
-role = function(x, ...) UseMethod("role")
+role = function(x, ...){ 
+  UseMethod("role") 
+}
 
 ## ----example_call_inst---------------------------------------------------
+# Create object `james` and assign class `instructor`
 james = structure(list(fname = 'James',
                        course = "STAT385"),
                  class = "instructor")
@@ -95,20 +107,25 @@ james = structure(list(fname = 'James',
 role(james)
 
 ## ----example_call_two----------------------------------------------------
+# Create object `david` and assign classes
+# `instructor` and `student`
 david = structure(list(fname = 'David',
-                       course = "STAT385"),
+                       course = "STAT385",
+                       grade = "A"),
                   class = c('student','instructor'))
 
 role(david)
 
 ## ----example_toad, echo = FALSE------------------------------------------
 toad = structure(list(fname = 'McToady',
-                      course = "STAT385"),
+                      course = "STAT385",
+                       grade = "A"),
                  class = 'humbug')
 
 ## ----example_call_unknown, eval = FALSE----------------------------------
 ## toad = structure(list(fname = 'McToady',
-##                       course = "STAT385"),
+##                       course = "STAT385",
+##                        grade = "A"),
 ##                  class = 'humbug')
 ## 
 ## role(toad)
@@ -126,11 +143,13 @@ role.default = function(x){     # Default case
 role(toad)
 
 ## ----inheritance_basic---------------------------------------------------
-james = structure(list(fname = 'James',
+james = structure(list(fname = "James",
                        course = "STAT385"),
-                 class = c("instructor","list"))
+                 class = c("instructor", # Specific
+                           "human",      # Less specific
+                           "list"))      # Default Object
 
-print(james)
+str(james)                               # Structure
 
 ## ----protected_generic_inst, eval = FALSE--------------------------------
 ## # Bad
@@ -140,7 +159,9 @@ print(james)
 ## role(james) # Adapts to future change!
 
 ## ----make_generic--------------------------------------------------------
-my_lm = function(x, ...) UseMethod("my_lm")
+my_lm = function(x, ...){ 
+  UseMethod("my_lm") 
+}
 
 ## ----part_one, eval = F--------------------------------------------------
 ## my_lm.default = function(x, y, ...){
@@ -155,11 +176,10 @@ my_lm = function(x, ...) UseMethod("my_lm")
 ##   # Compute the Degrees of Freedom
 ##   df = nrow(x) - ncol(x)   # n - p
 ## 
-## 
 
 ## ----part_two, eval = F--------------------------------------------------
 ##   # Compute the Standard Deviation of the Residuals
-##   sigma2 <- sum((y - x %*% beta_hat) ^ 2) / df
+##   sigma2 = sum((y - x %*% beta_hat) ^ 2) / df
 ## 
 ##   # Compute the Covariance Matrix
 ##   # Cov(Beta_hat) = sigma^2 * (X^T X)^(-1)
@@ -171,9 +191,8 @@ my_lm = function(x, ...) UseMethod("my_lm")
 ## 
 ##   # Return a list
 ##   return(structure(list(coefs = beta_hat,
-##                    cov_mat = cov_mat,
-##                    sigma = sqrt(sigma2),
-##                    df = df),
+##                         cov_mat = cov_mat,
+##                         sigma = sqrt(sigma2), df = df),
 ##                    class = "my_lm"))
 ## }
 
@@ -190,9 +209,8 @@ my_lm.default = function(x, y, ...){
   # Compute the Degrees of Freedom
   df = nrow(x) - ncol(x)   # n - p 
   
-
   # Compute the Standard Deviation of the Residuals
-  sigma2 <- sum((y - x %*% beta_hat) ^ 2) / df
+  sigma2 = sum((y - x %*% beta_hat) ^ 2) / df
   
   # Compute the Covariance Matrix
   # Cov(Beta_hat) = sigma^2 * (X^T X)^(-1)
@@ -203,10 +221,9 @@ my_lm.default = function(x, y, ...){
   colnames(cov_mat) = colnames(x)
   
   # Return a list
-  return(structure(list(coefs = beta_hat,
-                   cov_mat = cov_mat,
-                   sigma = sqrt(sigma2),
-                   df = df),
+  return(structure(list(coefs = beta_hat, 
+                        cov_mat = cov_mat, 
+                        sigma = sqrt(sigma2), df = df),
                    class = "my_lm"))
 }
 
@@ -216,39 +233,47 @@ print.my_lm = function(x, ...){
   print(x$coefs)
 }
 
-## ------------------------------------------------------------------------
+## ----writing_summary_my_lm-----------------------------------------------
 # Note that summary(object, ...) instead of summary(x, ...)!
 summary.my_lm = function(object, ...){
   
-  estimate = coef(object) # Store coefficents
+  estimate = object$coefs            # Beta Hat
   sterr = sqrt(diag(object$cov_mat)) # STD Error
-  t_test = estimate / sterr # T Test value
-  pval = 2*pt(-abs(t_test), df=object$df)
+  t_test = estimate / sterr          # t-Test value
+  pval = 2*pt(-abs(t_test), df=object$df) # p-value
   
-  out = structure(list(mat = 
-                        cbind(estimate,
-                              sterr,
-                              t_test,
-                              pval)), 
-                  class = "summary.my_lm")
-  return(out)
+  # Make output matrix
+  mat = cbind("Estimate"= estimate, "Std. Err" = sterr,
+             "t value" = t_test, "Pr(>|t|)" = pval)
+  
+  rownames(mat) = rownames(object$cov_mat) # Naming
+  
+  return(structure(list(mat = mat), 
+                  class = "summary.my_lm"))
 }
 
 ## ------------------------------------------------------------------------
-# Ours
+# Our Implementation of lm
 my_lm(x = cbind(1, mtcars$disp), y = mtcars$mpg)
 
-# Base R
+# Base R implementation
 lm(mpg~disp, data = mtcars)
 
 ## ------------------------------------------------------------------------
 # Note that print(x,...)!!
 print.summary.my_lm = function(x, ...) {
-  
-  m = x$mat
-  colnames(m) = c("Estimate", "Std.Err", "T value", "Pr(>t)")
   printCoefmat(x$mat,
                P.value = TRUE, 
                has.Pvalue = TRUE)
 }
+
+## ------------------------------------------------------------------------
+# Our Implementation of lm
+summary(my_lm(x = cbind("(Intercept)" = 1,
+                        "disp" = mtcars$disp),
+              y = mtcars$mpg))
+
+## ------------------------------------------------------------------------
+# Base R implementation
+summary(lm(mpg~disp, data = mtcars))
 
