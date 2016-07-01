@@ -1,7 +1,7 @@
 ---
 title: "Lecture 8: Data Management Techniques, Regular Expressions, Date and Time"
 author: "STAT 385 - James Balamuta"
-date: "June 27, 2016"
+date: "June 28, 2016"
 layout: post
 categories: lectures
 tags: 
