@@ -30,13 +30,6 @@ permalink: /syllabus/
 - **Office:** 117 Illini Hall
 - **Office Hours:** Wednesday and Friday 11:00 AM - 12:30 PM CDT
 
-### Grader
-
-- **Name:** TBA?
-- **Email:** TBA?
-- **Office:** TBA?
-- **Office Hours:** TBA?
-
 # Course Description
 
 The world is rapidly evolving to rely on data driven decisions. These decisions come from the work a statistician or data scientist presents in his or her reports. In order to present an analysis, the analyst needs to be able to leverage computing resources through programming to unearth patterns and models that exist within data sets. As a result, statisticians and data scientists must be savvy to programming methods that are useful to the wide variety of analysis that they will be expected to perform.
@@ -193,7 +186,7 @@ Reports will be graded based upon project outcomes, the execution of methods des
 
 # Software
 
-The course will use and present the **R** statistical computing language as well as different parts of C++ through [Rcpp](http://gallery.rcpp.org/). You are free to use any language you choose, but the course staff will only be able to provide support for **R**. If you would like to use another statistical computing environment, please alert the instructor ASAP to discuss feasibility.
+The course will use and present the **R** statistical computing language as well as different parts of C++ through [Rcpp](http://gallery.rcpp.org/). The integrated developer environment that we will use to explore *R* is [RStudio IDE](https://www.rstudio.com/products/rstudio/) made by [RStudio Inc](https://www.rstudio.com). You are free to use any language you choose, but the course staff will only be able to provide support for **R**. If you would like to use another statistical computing environment, please alert the instructor ASAP to discuss feasibility.
 
 
 # Course Grades
@@ -214,9 +207,6 @@ The course will use and present the **R** statistical computing language as well
 | TBD | 96% | 93% | 90% | 86% | 83% | 80% | 76% | 73% | 70% | 66% | 63% |
 
 Grades are not curved or adjusted. This is not to dishearten students, but to let them know that their grade is based on individual effort and not on comparative effort.
-
-
-
 
 # Academic Integrity
 
