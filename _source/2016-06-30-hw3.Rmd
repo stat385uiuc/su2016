@@ -69,9 +69,9 @@ Just as before, we will setup new repository to check our code into. However,
 
 1. Create a new RStudio Version controlled project called "Homework"
 by cloning the repository from `stat385uiuc` following:
-https://github.com/stat385uiuc/<netid>
-2. Within the project directory, create a **folder** called `hw2` and place the
-`hw2_netid.Rmd` file inside.
+`https://github.com/stat385uiuc/<netid>`
+2. Within the project directory, create a **folder** called `hw3` and place the
+`hw3_netid.Rmd` file inside.
 3. **Please commit every exercise as you complete them.**
 4. Provide a link to your GitHub repository to be awarded credit.
 
@@ -90,7 +90,7 @@ data set to indicate what kind of data is contained,
 the number of observations, number of variables, and
 an overview of each columns variables.
     - [`ship_data.dta`](/assets/hw/hw3/data/ship_data.dta)
-    - [`test_scores.sas7bdat`](/assets/hw/hw3/data/test_scores.sas7bdat)
+    - [`point_totals.sas7bdat`](/assets/hw/hw3/data/point_totals.sas7bdat)
     - [`child_data.sav`](/assets/hw/hw3/data/child_data.sav)
     - [`GE2011InformationalRates102512_0.XLS`](/assets/hw/hw3/data/GE2011InformationalRates102512_0.XLS)
         - Remove the first row and set the second row as the column names.
