@@ -50,10 +50,12 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
     - Read [Profiling](http://adv-r.had.co.nz/Profiling.html) and [Memory](http://adv-r.had.co.nz/memory.html) in [Advanced R](http://adv-r.had.co.nz/)
 - **6/28/16 - T:** Data Management Techniques, Regular Expressions [(regex)](http://regexr.com/), Dates and Times
     - Read [Strings](http://r4ds.had.co.nz/strings.html) and [Dates and Times](http://r4ds.had.co.nz/dates-and-times.html)  in [R for Data Science](http://r4ds.had.co.nz/)
-    - **>> Submit Group Proposal! <<**
+    - Read the [Tidy Data](https://www.jstatsoft.org/article/view/v059i10) paper in [Journal of Statistical Software](https://www.jstatsoft.org) by Hadley Wickham
 - **6/30/16 - R:** S3 Objects and Ellipses (A study in Linear Regression)
     - Read [S3 section within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Read [Section 7.1 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=39)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+    
+- **4/01/16 - F:** **>> Submit Group Proposal! <<**
 
 # Week 4
 
@@ -61,7 +63,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 - **7/05/16 - T:** Exploratory Data Analysis (EDA)
     - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) and [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
 - **7/07/16 - R:** *Midterm*
-    - Study Guide
+    - [Midterm Concept List](/announcements/2016/07/01/midterm-concept-list/)
     - Sample Midterm
     - Sample Midterm Solutions
 
