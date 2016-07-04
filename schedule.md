@@ -63,8 +63,8 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 - **7/05/16 - T:** Exploratory Data Analysis (EDA)
     - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) and [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
 - **7/07/16 - R:** *Midterm*
-    - [Midterm Concept List](/announcements/2016/07/01/midterm-concept-list/)
-    - Sample Midterm
+    - [Midterm Concept List](/announcements/2016/07/01/practice-midterm-and-list-of-concepts/)
+    - [Sample Midterm](/assets/midterm/practice_midterm.pdf)
     - Sample Midterm Solutions
 
 [**Drop Deadline:** July 8th, 2016](https://registrar.illinois.edu/summer-academic-calendar-16)

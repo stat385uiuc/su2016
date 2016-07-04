@@ -210,7 +210,7 @@ Grades are not curved or adjusted. This is not to dishearten students, but to le
 
 # Academic Integrity
 
-The official University of Illinois policy related to academic integrity can be found in Article 1, Part 4 of the Student Code. [Section 1-402 in particular outlines behavior which is considered an infraction of academic integrity.](http://studentcode.illinois.edu/article1_part4_1-402.html) These sections of the Student Code will be upheld in the STAT 430 classroom. Any violations will be dealt with in a swift, fair and strict manner. 
+The official University of Illinois policy related to academic integrity can be found in Article 1, Part 4 of the Student Code. [Section 1-402 in particular outlines behavior which is considered an infraction of academic integrity.](http://studentcode.illinois.edu/article1_part4_1-402.html) These sections of the Student Code will be upheld in the STAT 385 classroom. Any violations will be dealt with in a swift, fair and strict manner. 
 
 You may discuss methods for completing the homework assignments with other students, but the execution of these
 methods and the preparation of the document must be done independently. Sufficient evidence of sharing results, collaborating on written assignments, or simply relying on internet resources will result in a score of 0 for the assignment and you will lose your right to drop the lowest score. There can be no discussion with other students or collaboration of any kind on the take-home exams.

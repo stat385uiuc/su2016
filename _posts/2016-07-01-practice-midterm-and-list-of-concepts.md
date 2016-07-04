@@ -1,5 +1,5 @@
 ---
-title: "Concept List for Midterm"
+title: "Practice Midterm Exam and List of Concepts"
 author: "STAT 385 - James Balamuta"
 date: "July 1, 2016"
 layout: post
@@ -8,6 +8,10 @@ tags:
 - midterm
 - concepts
 ---
+
+# Practice Midterm
+
+Here is a [Sample Midterm exam](/assets/midterm/practice_midterm.pdf).
 
 # Topics Covered So Far
 
