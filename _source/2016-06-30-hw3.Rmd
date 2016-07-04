@@ -214,7 +214,8 @@ slr.formula = function(formula, data=list(), ...)
     x = model.matrix(attr(m_info, "terms"), data = m_info)
     y = model.response(m_info)
     
-    return(slr.default(x, y, ...))
+    # We do not need the column of ones in X due to SLR (helpful for MLR)
+    return(slr.default(x[,2], y, ...))
 }
 ```
 
