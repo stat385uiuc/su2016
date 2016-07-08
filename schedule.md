@@ -65,7 +65,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 - **7/07/16 - R:** *Midterm*
     - [Midterm Concept List](/announcements/2016/07/01/practice-midterm-and-list-of-concepts/)
     - [Sample Midterm](/assets/midterm/practice_midterm.pdf)
-    - Sample Midterm Solutions
+    - Sample Midterm Solutions ([R Code in Class](/assets/midterm/practice_midterm_R_answer.R)
 
 [**Drop Deadline:** July 8th, 2016](https://registrar.illinois.edu/summer-academic-calendar-16)
 
