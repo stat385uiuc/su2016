@@ -60,39 +60,41 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 # Week 4
 
 - **7/04/16 - M:** *No Class for Independence Day*
-- **7/05/16 - T:** Exploratory Data Analysis (EDA)
-    - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) and [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
+- **7/05/16 - T:** Group Project Proposals / Review Day
 - **7/07/16 - R:** *Midterm*
     - [Midterm Concept List](/announcements/2016/07/01/practice-midterm-and-list-of-concepts/)
     - [Sample Midterm](/assets/midterm/practice_midterm.pdf)
-    - Sample Midterm Solutions (Done in class...) ([R Code in Class](/assets/midterm/practice_midterm_R_answer.R)
+    - Sample Midterm Solutions (Done in class...) ([R Code in Class](/assets/midterm/practice_midterm_R_answer.R))
 
 [**Drop Deadline:** July 8th, 2016](https://registrar.illinois.edu/summer-academic-calendar-16)
 
 # Week 5
 
-- **7/11/16 - M:** S4 and RC Objects (A study in probability distributions)
+- **7/11/16 - M:** Pipes and Web Scrapping
+    - Read [Pipes](http://r4ds.had.co.nz/pipes.html) in [R for Data Science](http://r4ds.had.co.nz/)
+    - Read [SelectorGadget vignette](https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html) in [`rvest`](https://cran.r-project.org/web/packages/rvest)
+- **7/12/16 - T:** Exploratory Data Analysis (EDA)
+    - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) and [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
+- **7/14/16 - R:** S4 and RC Objects (A study in probability distributions)
     - Read [S4 and RC sections within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Read [Section 7.2 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=41) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
-- **7/12/16 - T:** Package Development (A study in contributing)
-    - Read [Package Structure](http://r-pkgs.had.co.nz/package.html), [Object Documentation](http://r-pkgs.had.co.nz/man.html) and [Testing](http://r-pkgs.had.co.nz/tests.html) in [R Packages](http://r-pkgs.had.co.nz/)
-- **7/14/16 - R:** The Apply Family (A study in Efficient Vectorization)
-    - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 
 # Week 6
 
 - **7/18/16 - M:** Shiny
-- **7/19/16 - T:** Simulation Studies
+- **7/19/16 - T:** The Apply Family (A study in Efficient Vectorization)
+    - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
     - **Submit Group Progress Update!**
-- **7/21/16 - R:** Distributed Computing with the [Illinois Campus Cluster (ICC)](https://campuscluster.illinois.edu/user_info/doc/beginner.html) 
-    - Look at the [Beginner's Guide](https://campuscluster.illinois.edu/user_info/doc/beginner.html)
-    - Read [Working with R on a Cluster](http://thecoatlessprofessor.com/programming/working-with-r-on-a-cluster/)
-
+- **7/21/16 - R:** Package Development (A study in contributing)
+    - Read [Package Structure](http://r-pkgs.had.co.nz/package.html), [Object Documentation](http://r-pkgs.had.co.nz/man.html) and [Testing](http://r-pkgs.had.co.nz/tests.html) in [R Packages](http://r-pkgs.had.co.nz/)
+    
 # Week 7: High Performance Computing
 
 - **7/25/16 - M:** Welcome to Rcpp Country
 - **7/26/16 - T:** Welcome to STL Country
-- **7/28/16 - R:** Welcome to Matrix Algebra Country
+- **7/28/16 - R:** Distributed Computing with the [Illinois Campus Cluster (ICC)](https://campuscluster.illinois.edu/user_info/doc/beginner.html) 
+    - Look at the [Beginner's Guide](https://campuscluster.illinois.edu/user_info/doc/beginner.html)
+    - Read [Working with R on a Cluster](http://thecoatlessprofessor.com/programming/working-with-r-on-a-cluster/)
 
 # Week 8
 
