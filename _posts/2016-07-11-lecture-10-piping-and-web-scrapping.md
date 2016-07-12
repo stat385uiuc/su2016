@@ -1,7 +1,7 @@
 ---
 title: "Lecture 10: Piping and Web Scrapping"
 author: "STAT 385 - James Balamuta"
-date: "July 10, 2016"
+date: "July 11, 2016"
 layout: post
 categories: lectures
 tags: 
@@ -15,10 +15,10 @@ tags:
 
 # Overview
 
-Data Science realm of *R*, the biggest breakthrough occurred back in 2014 with
-the introduction of a *pipe operator* to the *R* ecosystem. The creation
-of the *pipe* has lead to several *tidy* concepts. As a practical exercise, the
-pipe concept will be applied during *web scrapping*.
+In the Data Science realm of *R*, the biggest breakthrough occurred back in 2014 with
+the introduction of a **pipe operator** to the *R* ecosystem. The creation
+of the pipe has lead to several *tidy* concepts. As a practical exercise, the
+pipe concept will be applied during web scrapping.
 
 # Files of Interest 
 
