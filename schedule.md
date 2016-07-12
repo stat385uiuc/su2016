@@ -32,7 +32,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
     - Read [Iteration](http://r4ds.had.co.nz/iteration.html) in [R for Data Science](http://r4ds.had.co.nz/)
     - Read [Circle 2: Growing Objects](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=13)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
 - **6/21/16 - T:** Functions, Recursion, Memoization, and Benchmarking
-    - **You must be in a group by now!**
+    - **>> You must be in a group by now! <<**
     - Read [Functions](http://r4ds.had.co.nz/functions.html) in [R for Data Science](http://r4ds.had.co.nz/)
     - Read [Performance chapter until "Language performance"](http://adv-r.had.co.nz/Performance.html) in [Advanced R](http://adv-r.had.co.nz/)
     - Read [Memoization witin Functional Operators](http://adv-r.had.co.nz/Function-operators.html) in [Advanced R](http://adv-r.had.co.nz/)
@@ -84,7 +84,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 - **7/18/16 - M:** Shiny
 - **7/19/16 - T:** The Apply Family (A study in Efficient Vectorization)
     - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
-    - **Submit Group Progress Update!**
+    - **>> Submit Group Progress Update! <<**
 - **7/21/16 - R:** Package Development (A study in contributing)
     - Read [Package Structure](http://r-pkgs.had.co.nz/package.html), [Object Documentation](http://r-pkgs.had.co.nz/man.html) and [Testing](http://r-pkgs.had.co.nz/tests.html) in [R Packages](http://r-pkgs.had.co.nz/)
     
