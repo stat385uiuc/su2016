@@ -1,0 +1,146 @@
+---
+title: "STAT 385: Homework 4"
+author: "Summer 2016 - Balamuta"
+date: "Due: Sunday, July 17th by 11:59 PM CDT"
+output:
+  html_document:
+    theme: readable
+    toc: yes
+---
+
+> "There are three types of lies -- lies, damn lies, and statistics."
+>
+> --- Benjamin Disraeli
+
+# Directions
+
+While working on homework, students are encouraged to work together in a group. Though, each student must turn in their own homework answers.  If students opt to work together, then it is important that they list the names of the students that they have collaborated with. Please note that sharing, copying or providing any part of a homework solution or code to another student is an infraction of the University’s rules on Academic Integrity. Rest assured, any violation of Academic Integrity will be punished **as severely as possible**.
+
+* Your assignment must be submitted through the e-mail to `balamut2` [at] illinois [dot] edu. You are required to attach two (and only two) files to the *same* e-mail:
+    * The RMarkdown (`.Rmd`) file must be saved as `hw4_yourNetID.Rmd`, e.g.  `hw4_balamut2.Rmd`
+    * The generated output from the `.Rmd` file is then contained in `hw4_yourNetID.html`, e.g. `hw4_balamut2.html`.
+* Under this structure, the content found within the `.html` file will be considered a "report" which is the material that will determine the majority of your grade. Be sure to visibly include all `R` code and output that is relevant to answering the exercises. (You do not need to include irrelevant code you tried that resulted in error or did not answer the question correctly.)
+* There are no limitations as to the number of submissions that can be made. However, only the last submission *before* the deadline will be graded by myself or the grader.
+
+# Assignment Overview
+
+## Objectives
+
+1. Verify Data
+1. Categorical and Quantitative Variables
+1. Univariate Summaries
+1. Grammar of Graphics
+
+## Grading Criteria
+
+
+| Exercise | Exceptional | Exceeds Expectations |  Meets Expectations | Improvement Needed  | Unsatisfactory | Total Number of Points |
+|----------|-------------|----------------------|---------------------|---------------------|----------------|------------------------|
+|    0     |  $[0.9,1]$  | $[0.8,0.9)$          | $[0.7,0.8)$         |  $[0.6,0.7)$        | $[0,0.6)$      |           1            |
+|    1     |  $[4.5,5]$  | $[4,4.5)$            | $[3.5,4)$           |  $[3,3.5)$          | $[0,3)$        |           4            |
+|    2     |  $[4.5,5]$  | $[4,4.5)$            | $[3.5,4)$           |  $[3,3.5)$          | $[0,3)$        |           5            |
+|    3     |  $[4.5,5]$  | $[4,4.5)$            | $[3.5,4)$           |  $[3,3.5)$          | $[0,3)$        |           5            |
+|    4     |  $[4.5,5]$  | $[4,4.5)$            | $[3.5,4)$           |  $[3,3.5)$          | $[0,3)$        |           5            |
+|    5     |  $[4.5,5]$  | $[4,4.5)$            | $[3.5,4)$           |  $[3,3.5)$          | $[0,3)$        |           5            |
+
+# >>Assignment Rmd Document<<
+
+[Feel free to use the assignment Rmd document instead of creating your own.](/_source/2016-07-12-hw3.Rmd)
+
+# Exercises
+
+
+## (1 Point) Exercise 0: Listen to the rhythm, the rhythm of the GitHub!
+
+Now that you have a private repository within the [`stat385uiuc` organization on GitHub](https://github.com/stat385uiuc)
+via `stat385uiuc/<netid>` and already have the `Homework` project loaded in RStudio... All you need to do is create a new folder called `hw3` with the required files. Though, to earn this point, you still must:
+
+1. **Please commit every exercise as you complete them.**
+1. Provide a link to your GitHub repository to be awarded credit.
+
+## (4 Points) Exercise 1: Is this... Real?
+
+The objective behind this exercise is to practice the EDA and PDP cycle.
+
+- Obtain the [election_data.csv](/assets/homework/hw4/data/election_data.csv) and read it into *R*.
+- Determine the different kinds of variable data.
+   - Do these kinds make sense? If no, then transform the columns to the appropriate cast.
+   - If a transformation was performed, then print out the new classes.
+- Provide separate appropriate numerical summaries of the frequencies of 
+`quantitative` and `categorical` variables.
+- Summarize the counts and proportions associated with the cross between
+`sex` and `politics`.
+
+## (5 Points) Exercise 2: Row, Row, Row your `data.frame`
+
+The tenets behind this exercise are meant to expose you to providing univariate
+summaries as they relate to the row of a `matrix` or `data.frame` while respecting
+the pipeline principle. 
+
+- Create a function that is able to provide a `list` of different variables by their type from a given `data.frame` or `matrix`.
+    - Provide support for `factor`, `numeric`, `character`, `logical`, `integer`, and `complex`.
+    - Note: For a `matrix`, you only need to check *one* column. (Why?)
+- Next, create a function that is able to count the number of `NA` values. 
+    - Psst, lecture 11 slides might help.
+- Then, develop a function that is able to provide `NA` values for each data type per row.
+- Write a `ggplot` function that is able to plot the frequency of these `NA` variables per variable.
+
+Test your code against the dataset you built in 1. 
+
+## (5 Points) Exercise 3: Stuff that matters.
+
+Behind this exercise is a session based web scraping experience.
+
+**Round 1:**
+ 
+- Download the html for <http://xkcd.com/>
+- Extract the URL for the daily comic.
+- Download the comic image to disk.
+    - Include the Comic picture inside the R Markdown file.
+
+**Round 2:**
+
+- Establish an `html_session` with `rvest` pointed at <https://slashdot.org/>.
+    - You are only allowed to hardcode <https://slashdot.org/>
+- Navigate to the *Science* news section of slashdot given at 
+<https://science.slashdot.org/> by having `rvest` click the appropriate link.
+- Scrap all of the titles of the articles on the first and second pages.
+    - Provide the selector information that you used.
+- Scrap all the URLs given within each of the story descriptions.
+    - Provide the selector information that you used.
+- List the URLs next to the Titles.
+    - You can embed a `list` with the titles inside a `data.frame`!
+
+## (5 Points) Exercise 4: The Figure Whisperer
+
+Within this exercise, the objective is to have you explore more of ggplot2
+features.
+
+- Construct a **scatterplot** that shows the relationship between `weight` and
+`age` given in the cleaned `election_data`
+- Try to color points according to `sex`.
+- Separate the figures by conditioning either: `sex` or `politics`?
+    - Any changes if you condition on?
+- Add an `lm` trend line.
+
+
+- Create a bar chart showing the amount of "males" vs. "females" in the data.
+- Add a density curve to the barchart.
+
+- Make a boxplot **and** a violin plot to show the distribution of `weight` vs. `sex`.
+    - Which plot type do you like better? *Why?*
+- Add the data points to the plot.
+
+
+## (5 Points) Exercise 5: Your Choice.
+
+The idea behind this exercise is to make it highly unstructured and allow you
+to investigate a problem you might be interested in.
+
+1. Specify the name of the dataset that you wish to use. Post it on piazza. Everyone
+must have their **own** unique data set.
+    - You may want to grab data from <https://www.data.gov/> or <http://espn.go.com/>
+    - The data set *must* have both numerical and categorical variables (at least 8).
+2. Perform EDA and PDP on the copy of data you received.
+3. Create graphs that you believe help tell the story best of your data
+4. Provide a summary of each step that you did in paragraph form. Defend your actions.
