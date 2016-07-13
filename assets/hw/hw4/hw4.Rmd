@@ -62,7 +62,7 @@ via `stat385uiuc/<netid>` and already have the `Homework` project loaded in RStu
 
 The objective behind this exercise is to practice the EDA and PDP cycle.
 
-- Obtain the [election_data.csv](/assets/homework/hw4/data/election_data.csv) and read it into *R*.
+- Obtain the [election_data.csv](/assets/hw/hw4/data/election_data.csv) and read it into *R*.
 - Determine the different kinds of variable data.
    - Do these kinds make sense? If no, then transform the columns to the appropriate cast.
    - If a transformation was performed, then print out the new classes.
