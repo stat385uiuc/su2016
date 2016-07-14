@@ -45,7 +45,7 @@ While working on homework, students are encouraged to work together in a group. 
 
 # >>Assignment Rmd Document<<
 
-[Feel free to use the assignment Rmd document instead of creating your own.](/_source/2016-07-12-hw3.Rmd)
+[Feel free to use the assignment Rmd document instead of creating your own.](/assets/hw/hw4/hw4.Rmd)
 
 # Exercises
 
