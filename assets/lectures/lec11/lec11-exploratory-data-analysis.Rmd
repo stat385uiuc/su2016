@@ -1,5 +1,5 @@
 ---
-title: "Lecture 11: Exploratory Data Analysis"
+title: "Lecture 11: Exploratory Data Analysis - Part 1"
 author: "STAT 385 - James Balamuta"
 date: "July 12, 2016"
 output:
@@ -24,7 +24,7 @@ library("ggplot2")
     - Graded Exams available for pick up tomorrow during Office Hour
 2. Exploratory Data Analysis
     - Quantitative
-    - Visual
+    - Intro to Visual
 
 # Starting an Analysis
 
@@ -322,6 +322,13 @@ ggplot(x) + geom_point(aes(x,y))
 ggplot(x) + geom_point(aes(x,y), alpha = 0.05)
 ```
 
-# EDA Part 2
+# A note...
 
-On Thursday!
+- Notice in the previous slides, there was no call to `plot()`. 
+- Instead, `ggplot()` was used to create the graphic through the use of layering via the `+` symbol.  
+- To do the same with base *R*, we would of used:
+
+```{r base_r_exploratory, fig.height = 5}
+plot(x, col = rgb(0, 0, 0, 0.05)) # Transparent color
+```
+
