@@ -31,7 +31,8 @@ Generation Files:
 
 Dropbox in-class code:
 
-TBA
+* [EDA Part 1](https://dl.dropboxusercontent.com/u/72159608/stat385/eda_demo.R?dl=0)
+* [EDA Part 2](https://dl.dropboxusercontent.com/u/72159608/stat385/eda_part2.R?dl=0)
 
 # Source Material
 
