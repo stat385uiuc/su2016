@@ -25,6 +25,24 @@ In order to follow this installation guide, you must:
     - [Rtools](https://cran.r-project.org/bin/windows/Rtools/) radically changed before then
 3. Be able to launch an application via "Run as Administrator" prompt.
 
+# Other platforms
+
+This installation guide is specific to Windows operating systems >= Windows 7.
+
+If you are on MacOS, please see: <http://thecoatlessprofessor.com/programming/r-compiler-tools-for-rcpp-on-os-x/>
+
+For those of you on Linux, you can either use:
+
+
+```bash
+
+# Ubuntu
+sudo apt-get update
+sudo apt-get install r-base r-base-dev
+```
+
+
+
 # Install Guide
 
 The steps below will guide you through setting up the *Rtools* toolchain on Windows. 
