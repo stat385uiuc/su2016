@@ -35,13 +35,14 @@ For those of you on Linux, you can either use:
 
 
 ```bash
+# RHEL/CentOS
+sudo yum update
+sudo yum install R
 
 # Ubuntu
 sudo apt-get update
 sudo apt-get install r-base r-base-dev
 ```
-
-
 
 # Install Guide
 
@@ -57,7 +58,7 @@ release (x.y.0) yields an equivalent *Rtools* release.
 - **Step 3:** Open the folder location where Rtools can be found.
 - **Step 4:** Right click on the "Rtools34.exe" and select "Run as administrator"
 
-![](/figure/source/2016-07-25-install-rtools-for-rcpp/rtools_run_as_admin.PNG)
+![](/figure/source/2016-07-25-install-rtools-for-rcpp/rtools_run_as_admin.png)
 
 - **Step 4:** Accept the UAC prompt that appears
 
