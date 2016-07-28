@@ -386,16 +386,16 @@ parallel is also independent of the number of processors
 
 Then the maximum speedup obtainable via parallelization is:
 
-$$S\left( N \right) = \frac{1}{{\left( {1 - P} \right) + \frac{P}{N}}}$$
+$$S\left( N \right) = \frac{1}{ {\left( {1 - P} \right) + \frac{P}{N} } }$$
 
 # Amdahl's law (Fixed Problem Size)
 
 
-$$S\left( N \right) = \frac{1}{{\left( {1 - P} \right) + \frac{P}{N}}}$$
+$$S\left( N \right) = \frac{1}{ {\left( {1 - P} \right) + \frac{P}{N} } }$$
 
 Note, as $N \rightarrow \infty$, then: 
 
-$$\mathop {\lim }\limits_{N \to \infty } S\left( N \right) = \frac{1}{{1 - P}}$$
+$$\mathop {\lim }\limits_{N \to \infty } S\left( N \right) = \frac{1}{ {1 - P} }$$
 
 - This means that the maximum speedup with infinite amounts of processors
 is restricted to $\left({1-P}\right)$. 
