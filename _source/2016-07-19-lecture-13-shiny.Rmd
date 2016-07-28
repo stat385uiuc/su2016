@@ -1,5 +1,5 @@
 ---
-title: "Lecture 16: Shiny"
+title: "Lecture 13: Shiny"
 author: "STAT 385 - James Balamuta"
 date: "July 19, 2016"
 layout: post
