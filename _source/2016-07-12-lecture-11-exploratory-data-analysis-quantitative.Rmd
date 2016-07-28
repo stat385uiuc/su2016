@@ -1,5 +1,5 @@
 ---
-title: "Lecture 11: Exploratory Data Analysis"
+title: "Lecture 11: EDA - Quantitative"
 author: "STAT 385 - James Balamuta"
 date: "July 12, 2016"
 layout: post
@@ -16,7 +16,8 @@ tags:
 
 Data often has many patterns to reveal to us. However, we do need to poke at it
 to understand its subtleties. Thus, we need to perform Exploratory Data Analysis
-(EDA) on the data. 
+(EDA) on the data. In particular, the most basic aspects of EDA are to obtain
+quantitative information that provides an overall summary of the data. 
 
 # Files of Interest 
 
