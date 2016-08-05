@@ -57,7 +57,7 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
     
 - **4/01/16 - F:** **>> Submit Group Proposal! <<**
 
-# Week 4
+# Week 4: Midterm
 
 - **7/04/16 - M:** *No Class for Independence Day*
 - **7/05/16 - T:** Group Project Proposals / Review Day
@@ -68,22 +68,20 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 
 [**Drop Deadline:** July 8th, 2016](https://registrar.illinois.edu/summer-academic-calendar-16)
 
-# Week 5
+# Week 5: Harnessing Knowledge
 
 - **7/11/16 - M:** Pipes and Web Scrapping
     - Read [Pipes](http://r4ds.had.co.nz/pipes.html) in [R for Data Science](http://r4ds.had.co.nz/)
     - Read [SelectorGadget vignette](https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html) in [`rvest`](https://cran.r-project.org/web/packages/rvest)
-- **7/12/16 - T:** Exploratory Data Analysis (EDA)
-    - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html) and [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
-- **7/14/16 - R:** S4 and RC Objects (A study in probability distributions)
-    - Read [S4 and RC sections within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
-    - Read [Section 7.2 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=41) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+- **7/12/16 - T:** Exploratory Data Analysis (EDA) - Quantitative 
+    - Read [Exploratory Data Analysis (EDA)](http://r4ds.had.co.nz/exploratory-data-analysis-eda.html) in [R for Data Science](http://r4ds.had.co.nz/)
+- **7/14/16 - R:**  Exploratory Data Analysis (EDA) - Visual
+    - Read [Data Visualization](http://r4ds.had.co.nz/data-visualisation.html)
 
-# Week 6
+# Week 6: Deploying
 
 - **7/18/16 - M:** Shiny
-- **7/19/16 - T:** The Apply Family (A study in Efficient Vectorization)
-    - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+- **7/19/16 - T:** 
     - **>> Submit Group Progress Update! <<**
 - **7/21/16 - R:** Package Development (A study in contributing)
     - Read [Package Structure](http://r-pkgs.had.co.nz/package.html), [Object Documentation](http://r-pkgs.had.co.nz/man.html) and [Testing](http://r-pkgs.had.co.nz/tests.html) in [R Packages](http://r-pkgs.had.co.nz/)
@@ -91,17 +89,26 @@ Note: All homework is due on **Sunday** at **11:59 PM CDT** by e-mail to **balam
 # Week 7: High Performance Computing
 
 - **7/25/16 - M:** Welcome to Rcpp Country
-- **7/26/16 - T:** Welcome to STL Country
-- **7/28/16 - R:** Distributed Computing with the [Illinois Campus Cluster (ICC)](https://campuscluster.illinois.edu/user_info/doc/beginner.html) 
+- **7/26/16 - T:** Parallel Computing with R
+- **7/28/16 - R:** Parallel Computing with Rcpp
+
+# Week 8: Cluster Work
+
+- **8/01/16 - M:** Unix Shell
+- **8/02/16 - T:** Distributed Computing with the [Illinois Campus Cluster (ICC)](https://campuscluster.illinois.edu/user_info/doc/beginner.html) 
     - Look at the [Beginner's Guide](https://campuscluster.illinois.edu/user_info/doc/beginner.html)
     - Read [Working with R on a Cluster](http://thecoatlessprofessor.com/programming/working-with-r-on-a-cluster/)
-
-# Week 8
-
-- **8/01/16 - M:** Crafting Presentations and Creating a Data Analysis Pipeline
-- **8/02/16 - T:** TBA (Float Day)
-- **8/04/16 - R:** TBA (Float Day)
     - **Today is Group Presentation day!**
-    
+- **8/04/16 - R:** Reading Day (No Class!)
     
 Final Reports are due on: **Sunday August 7th, 2016** at **11:59 PM CDT**
+
+# Extra
+
+Here are a few topics I would encourage you to look into more on your own:
+
+- S4 and RC Objects (A study in probability distributions)
+    - Read [S4 and RC sections within OO-Field Guide](http://adv-r.had.co.nz/OO-essentials.html) in [Advanced R](http://adv-r.had.co.nz/)
+    - Read [Section 7.2 of Circle 7: Tripping on Object Orientation](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=41) in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+- The Apply Family (A study in Efficient Vectorization)
+    - Read [Circle 4: Over-Vectorizing](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf#page=25)  in [R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
